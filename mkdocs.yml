@@ -126,11 +126,6 @@ markdown_extensions:
       permalink: true
 
 extra:
-  social:
-    - icon: fontawesome/brands/twitch
-      link: https://twitch.tv/thymply_
-    - icon: fontawesome/brands/discord
-      link: https://discord.gg/botly
   generator: false
 
 extra_css:
