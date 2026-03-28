@@ -1,0 +1,45 @@
+:root {
+  --md-primary-fg-color: #3b82f6;
+  --md-primary-fg-color--light: #60a5fa;
+  --md-primary-fg-color--dark: #2563eb;
+  --md-accent-fg-color: #3b82f6;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: #f8fafc;
+}
+
+.md-header {
+  background: linear-gradient(135deg, #dc2626, #3b82f6) !important;
+}
+
+.md-tabs {
+  background: #2563eb !important;
+}
+
+.md-typeset a {
+  color: #3b82f6;
+}
+.md-typeset a:hover {
+  color: #2563eb;
+}
+
+.md-nav__link--active {
+  color: #3b82f6 !important;
+}
+
+.md-search-result__article--active {
+  border-left-color: #3b82f6;
+}
+
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: #3b82f6;
+}
+.md-typeset .tip > .admonition-title,
+.md-typeset .tip > summary {
+  background-color: #3b82f61a;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #3b82f6;
+  --md-accent-fg-color: #60a5fa;
+}

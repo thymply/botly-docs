@@ -7,14 +7,14 @@ theme:
   language: de
   palette:
     - scheme: slate
-      primary: cyan
-      accent: cyan
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Light Mode
     - scheme: default
-      primary: cyan
-      accent: cyan
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Dark Mode
@@ -132,3 +132,6 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/botly
   generator: false
+
+extra_css:
+  - stylesheets/extra.css
