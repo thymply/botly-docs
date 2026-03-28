@@ -1,0 +1,134 @@
+site_name: Botly Docs
+site_url: https://botly-docs.thymply.de
+site_description: Offizielle Dokumentation für Botly
+
+theme:
+  name: material
+  language: de
+  palette:
+    - scheme: slate
+      primary: cyan
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Light Mode
+    - scheme: default
+      primary: cyan
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Dark Mode
+  font:
+    text: DM Sans
+    code: JetBrains Mono
+  logo: assets/botly-icon.svg
+  favicon: assets/botly-favicon.svg
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.tabs.link
+  custom_dir: overrides
+
+nav:
+  - Home: index.md
+  - Erste Schritte:
+    - Was ist Botly?: erste-schritte/was-ist-botly.md
+    - Account erstellen: erste-schritte/account-erstellen.md
+    - Erster Bot: erste-schritte/erster-bot.md
+    - "Dashboard-Übersicht": erste-schritte/dashboard-uebersicht.md
+    - "Pläne & Preise": erste-schritte/plaene.md
+  - Dashboard:
+    - Twitch Bot:
+      - Commands: dashboard/twitch/commands.md
+      - Counter: dashboard/twitch/counter.md
+      - Timer: dashboard/twitch/timer.md
+      - Giveaway: dashboard/twitch/giveaway.md
+      - Mitspieler: dashboard/twitch/mitspieler.md
+      - Regulars: dashboard/twitch/regulars.md
+      - AutoMod: dashboard/twitch/automod.md
+      - Werbung: dashboard/twitch/werbung.md
+      - Auto-Clip: dashboard/twitch/auto-clip.md
+      - Clips Dashboard: dashboard/twitch/clips-dashboard.md
+      - Editoren: dashboard/twitch/editoren.md
+    - YouTube Bot:
+      - Bot-Status: dashboard/youtube/bot-status.md
+      - AutoMod: dashboard/youtube/automod.md
+    - Discord Bot:
+      - Welcome: dashboard/discord/welcome.md
+      - AutoMod: dashboard/discord/automod.md
+      - Duplikate: dashboard/discord/duplikate.md
+      - Temp-Voice: dashboard/discord/temp-voice.md
+      - Reaction Roles: dashboard/discord/reaction-roles.md
+      - "Live-Ankündigungen": dashboard/discord/live-ankuendigungen.md
+      - Bot-Nickname: dashboard/discord/bot-nickname.md
+    - Geteilte Features: dashboard/geteilte-features.md
+    - OBS-Steuerung: dashboard/obs-steuerung.md
+    - Billing: dashboard/billing.md
+    - Einstellungen: dashboard/einstellungen.md
+  - Desktop App:
+    - Installation: desktop/installation.md
+    - Alert-Editor: desktop/alert-editor.md
+    - Custom Alerts: desktop/custom-alerts.md
+    - "Alert-Kanäle": desktop/alert-kanaele.md
+    - Action-Chains: desktop/action-chains.md
+    - Medien: desktop/medien.md
+    - CrossChat: desktop/crosschat.md
+    - Kanalpunkte: desktop/kanalpunkte.md
+    - Donations: desktop/donations.md
+    - KI-Assistent: desktop/ki.md
+  - Referenz:
+    - Variablen: referenz/variablen.md
+    - Trigger-Typen: referenz/trigger-typen.md
+    - Aktions-Typen: referenz/aktions-typen.md
+  - Integrationen:
+    - OBS Studio: integrationen/obs.md
+    - Twitch: integrationen/twitch.md
+    - YouTube: integrationen/youtube.md
+    - Discord: integrationen/discord.md
+    - Donations: integrationen/donations.md
+  - Beispiele:
+    - Death Counter: beispiele/death-counter.md
+    - Follow-Alert: beispiele/follow-alert.md
+    - Kanalpunkt-Action: beispiele/kanalpunkt-action.md
+    - Raid-Celebration: beispiele/raid-celebration.md
+    - CrossChat Simulcast: beispiele/crosschat-simulcast.md
+    - Giveaway: beispiele/giveaway-ankuendigung.md
+  - FAQ: faq.md
+  - Rechtliches:
+    - Impressum: rechtliches/impressum.md
+    - Datenschutz: rechtliches/datenschutz.md
+    - AGB: rechtliches/agb.md
+
+plugins:
+  - search:
+      lang: de
+  - tags
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitch
+      link: https://twitch.tv/thymply_
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/botly
+  generator: false
