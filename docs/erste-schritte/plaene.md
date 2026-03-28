@@ -32,8 +32,6 @@ Botly bietet flexible Pläne für jeden Streamer — vom Hobby bis zum Vollzeit-
 
 ## Desktop Lifetime
 
-Neben dem monatlichen Abo gibt es eine **Einmal-Option** für die Desktop App:
-
 | Option | Preis | Desktop App |
 |--------|-------|-------------|
 | **Desktop Lifetime** | 89 € einmalig | Dauerhaft freigeschaltet |
@@ -45,8 +43,6 @@ Neben dem monatlichen Abo gibt es eine **Einmal-Option** für die Desktop App:
 
 ## KI Add-on
 
-Der KI-Assistent ist ein optionales Add-on zu jedem Plan:
-
 | Option | Preis | Was ist enthalten |
 |--------|-------|-------------------|
 | **KI Add-on** | 4,99 €/Monat | Eigener API Key (OpenAI, Anthropic, Ollama) |
@@ -54,49 +50,31 @@ Der KI-Assistent ist ein optionales Add-on zu jedem Plan:
 | **Managed KI Unlimited** | 14,99 €/Monat | Botly Key, unbegrenzt |
 
 !!! info "KI Add-on vs. Managed KI"
-    Beim **KI Add-on** bringst du deinen eigenen API Key mit — du zahlst nur das Feature-Unlock bei Botly. Bei **Managed KI** stellt Botly den Key und du zahlst nach Volumen.
+    Beim **KI Add-on** bringst du deinen eigenen API Key mit. Bei **Managed KI** stellt Botly den Key und du zahlst nach Volumen.
 
-## Upgrade & Downgrade
+## Upgrade & Kündigung
 
-### Upgraden
-
-1. Gehe zu **Abonnement** im Dashboard
-2. Wähle den gewünschten Plan
-3. Du wirst zur Stripe-Bezahlseite weitergeleitet
-4. Nach Zahlung ist der neue Plan sofort aktiv
-
-### Downgraden
-
-1. Klicke auf **Abo verwalten (Stripe)**
-2. Wähle den günstigeren Plan
-3. Der Downgrade wird am Ende der aktuellen Laufzeit aktiv
-
-### Kündigen
-
-1. Klicke auf **Abo verwalten (Stripe)**
-2. Wähle **Abonnement kündigen**
-3. Dein Plan bleibt bis zum Ende der bezahlten Laufzeit aktiv
-4. Danach wechselst du automatisch auf Free
+- **Upgraden:** Im Dashboard unter Abonnement → Plan wählen → Stripe Checkout
+- **Downgraden:** Abo verwalten (Stripe) → günstigerer Plan → am Ende der Laufzeit aktiv
+- **Kündigen:** Abo verwalten → Kündigen → Plan bleibt bis Laufzeitende aktiv
 
 !!! note "Daten bleiben erhalten"
-    Bei einem Downgrade werden deine Einstellungen nicht gelöscht. Wenn du wieder upgradest, ist alles noch da. Features die den aktuellen Plan übersteigen werden nur deaktiviert, nicht entfernt.
+    Bei Downgrade oder Kündigung werden Einstellungen nicht gelöscht, nur deaktiviert.
 
 ## Entscheidungshilfe
 
 ??? question "Brauche ich Pro?"
-    **Ja**, wenn du mehr als 3 Timer, mehr als 1 Counter oder mehr als 1 Discord-Server nutzen willst. Oder wenn du die Desktop App für CrossChat oder OBS-Steuerung brauchst.
+    **Ja**, wenn du mehr als 3 Timer, mehr als 1 Counter oder die Desktop App für CrossChat oder OBS brauchst.
 
 ??? question "Brauche ich Premium?"
-    **Ja**, wenn du die Desktop App mit Alert-Editor, Action-Chains und Donation-Integration nutzen willst. Premium ist für Streamer die ihren Stream voll automatisieren wollen.
+    **Ja**, wenn du die Desktop App mit Alert-Editor, Action-Chains und Donation-Integration willst.
 
-??? question "Lohnt sich der KI Add-on?"
-    Wenn du automatische Chat-Moderation oder KI-Antworten im Chat willst — ja. Für die meisten Streamer reicht der Standard-AutoMod allerdings aus.
+??? question "Lifetime + Pro oder Lifetime + Premium?"
+    **Lifetime + Pro** (4,99 €/Monat): Desktop App komplett + erweiterte Dashboard-Features. **Lifetime + Premium** (5,99 €/Monat): Alles aus Pro + 5 Discord-Server, Auto-Clip, Clips Dashboard.
+
+??? question "Was passiert wenn ich kündige?"
+    Dein Plan bleibt bis zum Ende der bezahlten Laufzeit aktiv. Danach wechselst du auf Free. Einstellungen bleiben gespeichert.
 
 ## Zahlungsmethoden
 
-Botly nutzt **Stripe** für alle Zahlungen. Unterstützte Methoden:
-
-- Kreditkarte (Visa, Mastercard, American Express)
-- Debitkarte
-- SEPA-Lastschrift
-- Google Pay / Apple Pay
+Kreditkarte, Debitkarte, SEPA-Lastschrift, Google Pay, Apple Pay (via Stripe).

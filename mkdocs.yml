@@ -65,7 +65,9 @@ nav:
       - Temp-Voice: dashboard/discord/temp-voice.md
       - Reaction Roles: dashboard/discord/reaction-roles.md
       - "Live-Ankündigungen": dashboard/discord/live-ankuendigungen.md
+      - Tickets: dashboard/discord/tickets.md
       - Bot-Nickname: dashboard/discord/bot-nickname.md
+    - Audit Log: dashboard/audit-log.md
     - Geteilte Features: dashboard/geteilte-features.md
     - OBS-Steuerung: dashboard/obs-steuerung.md
     - Billing: dashboard/billing.md

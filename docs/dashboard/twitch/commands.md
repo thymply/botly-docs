@@ -32,20 +32,26 @@ Die Commands-Seite hat drei Tabs:
 
 4. Klicke auf **Speichern**
 
-<!-- Screenshot: Command erstellen Modal -->
-
 ## Keywords (ohne !)
 
-Keywords reagieren wenn der Text **irgendwo** in einer Chat-Nachricht vorkommt — ohne `!` Prefix.
+Keywords reagieren wenn der Text **irgendwo** in einer Chat-Nachricht vorkommt — ohne `!` Prefix. Sie haben einen eigenen Tab auf der Commands-Seite.
 
 !!! info "Wann Keywords nutzen?"
-    Keywords eignen sich für automatische Antworten auf häufige Fragen. Beispiel: Ein Keyword "welches Mikrofon" antwortet mit deinem Equipment, egal wie die Frage formuliert ist.
+    Keywords eignen sich für automatische Antworten auf häufige Fragen. Beispiel: Ein Keyword "welches mikrofon" antwortet mit deinem Equipment, egal wie die Frage formuliert ist.
 
 Wechsle zum **Keywords**-Tab und erstelle dort ein neues Keyword. Der Name wird ohne `!` gespeichert.
 
+**Beispiele:**
+
+| Keyword | Antwort |
+|---------|---------|
+| `welches mikrofon` | Ich nutze ein Shure SM7B! |
+| `gg` | GG! Gut gespielt! |
+| `discord` | Unser Discord: discord.gg/dein-link |
+
 ## Aliase
 
-Ein Command kann mehrere Namen haben. Beispiel: `!discord` mit Alias `dc` reagiert auch auf `!dc`.
+Ein Command kann mehrere Namen haben:
 
 - Aliase werden im Modal als kommagetrennte Liste eingegeben
 - Aliase bekommen automatisch das gleiche Prefix wie der Hauptbefehl
@@ -53,7 +59,7 @@ Ein Command kann mehrere Namen haben. Beispiel: `!discord` mit Alias `dc` reagie
 
 ## Antworttyp (Response Type)
 
-Bestimme wie der Bot antwortet:
+Bestimme **wie** der Bot antwortet:
 
 | Typ | Beschreibung | Twitch | YouTube |
 |-----|-------------|--------|---------|
@@ -62,17 +68,22 @@ Bestimme wie der Bot antwortet:
 | **Erwähnung** | @User vor der Nachricht | Ja | Ja |
 | **Flüstern** | DM an den User | Ja | Nicht verfügbar |
 
-!!! warning "YouTube + Flüstern"
+!!! warning "Whisper-Fallback"
+    Wenn der User Flüsternachrichten deaktiviert hat, sendet der Bot stattdessen einen Hinweis im Chat: "Ich konnte dir keine Flüsternachricht senden." Die eigentliche Antwort wird **nicht** öffentlich gepostet — private Inhalte (z.B. Gewinn-Codes) bleiben geschützt.
+
+!!! info "YouTube + Flüstern"
     YouTube unterstützt kein Flüstern. Botly verwendet stattdessen eine Erwähnung (@User).
 
-## Bedingungen
+## Bedingungen (Conditions)
 
-Bestimme wann der Command aktiv ist:
+Bestimme **wann** der Command aktiv ist:
 
 - **Immer aktiv** — Reagiert immer (Standard)
 - **Nur wenn live** — Nur während des Streams
 - **Nur wenn offline** — Nur wenn du nicht streamst
 - **Ablaufdatum** — Command wird nach dem Datum automatisch deaktiviert
+
+Abgelaufene Commands werden mit einem "Abgelaufen"-Badge markiert und sind deaktiviert.
 
 !!! tip "Ablaufdatum nutzen"
     Perfekt für zeitbegrenzte Aktionen wie Events oder Gewinnspiele. Der Command wird automatisch deaktiviert — du musst nicht daran denken.
@@ -116,18 +127,10 @@ Nutze Variablen in der Antwort die automatisch mit Live-Daten gefüllt werden:
 !followage → $(user) folgt seit $(followage)
 ```
 
-**Auto-Reply (Keyword):**
-```
-Keyword: "welches mikrofon" → Ich nutze ein Shure SM7B!
-```
-
 ## Häufige Fragen
 
 ??? question "Wie viele Commands kann ich erstellen?"
     Unbegrenzt — in jedem Plan. Es gibt kein Limit für Commands.
 
 ??? question "Kann ich Commands importieren?"
-    Ja. Klicke auf **Importieren** und lade eine JSON- oder CSV-Datei hoch. Das Format von Nightbot und Moobot wird unterstützt.
-
-??? question "Was ist der Unterschied zwischen Bot und Streamer als Absender?"
-    Bei "Bot" schreibt der verknüpfte Bot-Account. Bei "Streamer" schreibt dein eigener Twitch-Account. Nützlich wenn der Command persönlicher wirken soll.
+    Ja. Klicke auf **Importieren** und lade eine JSON- oder CSV-Datei hoch. Nightbot und Moobot Format wird unterstützt.

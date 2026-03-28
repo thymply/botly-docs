@@ -15,15 +15,33 @@ Wenn du auf Twitch und YouTube gleichzeitig streamst, haben beide Chats normaler
 Twitch Viewer:  "Geiler Stream!"
 → YouTube Chat: [Twitch] CoolViewer: Geiler Stream!
 
-YouTube Viewer: "Danke für den Content!"  
+YouTube Viewer: "Danke für den Content!"
 → Twitch Chat:  [YT] YouTubeUser: Danke für den Content!
 ```
+
+!!! info "Nur Twitch und YouTube"
+    CrossChat verbindet nur Twitch und YouTube. Discord ist **nicht** Teil von CrossChat — dafür gibt es die [Live-Ankündigungen](../dashboard/discord/live-ankuendigungen.md).
 
 ## Voraussetzungen
 
 - **Pro-Plan oder höher** (oder Desktop Lifetime)
-- **YouTube API Key** — [Anleitung als PDF](../integrationen/youtube.md)
+- **YouTube API Key** (wird immer vom User gestellt)
 - **Desktop App** läuft und ist verbunden
+
+## YouTube API Key einrichten
+
+Du brauchst einen eigenen YouTube API Key. Botly stellt **keinen** Key — so wird dein API-Quota nicht durch andere User verbraucht.
+
+**Kurzfassung:**
+
+1. Öffne die [Google Cloud Console](https://console.cloud.google.com)
+2. Erstelle ein neues Projekt
+3. Aktiviere die **YouTube Data API v3**
+4. Erstelle einen **API Key** unter "Anmeldedaten"
+5. Trage den Key in der Desktop App → **CrossChat** ein
+
+!!! tip "PDF-Anleitung"
+    Eine ausführliche Schritt-für-Schritt Anleitung findest du als PDF im Dashboard unter **Tools** → **YouTube API Key Anleitung**.
 
 ## Einrichtung
 
@@ -45,7 +63,7 @@ Standard: `[{platform}] {user}: {message}`
 ## Einschränkungen
 
 !!! warning "YouTube API Quota"
-    YouTube hat ein tägliches API-Quota von 10.000 Units. CrossChat nutzt die YouTube Live Chat API (kostengünstig), aber bei sehr aktivem Chat kann das Quota erreicht werden. Siehe [YouTube Quota](../integrationen/youtube.md).
+    YouTube hat ein tägliches API-Quota von 10.000 Units. CrossChat ist optimiert, aber bei sehr aktivem Chat kann das Quota erreicht werden. Siehe [YouTube Quota](../integrationen/youtube.md).
 
 !!! info "Nur während Livestream"
-    CrossChat funktioniert nur wenn beide Plattformen gleichzeitig live sind. Im Offline-Modus ist die Bridge inaktiv.
+    CrossChat funktioniert nur wenn beide Plattformen gleichzeitig live sind.

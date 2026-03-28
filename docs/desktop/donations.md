@@ -7,60 +7,56 @@ description: Tipeeestream, StreamElements, Streamlabs und Ko-Fi in Botly einrich
 
 Verbinde deine Donation-Plattformen mit Botly und löse Alerts und Action-Chains bei Spenden aus.
 
-## Unterstützte Anbieter
+## Übersicht
 
-| Anbieter | Verbindung | Echtzeit |
-|----------|-----------|----------|
-| **Tipeeestream** | API Key | Ja (WebSocket) |
-| **StreamElements** | JWT Token | Ja (WebSocket) |
-| **Streamlabs** | Socket API Token | Ja (WebSocket) |
-| **Ko-Fi** | Webhook | Ja (HTTP) |
+- **4 Anbieter:** Tipeeestream, StreamElements, Streamlabs, Ko-Fi
+- **Nur einer gleichzeitig aktiv** (wähle deinen Haupt-Donation-Dienst)
+- **Verbindung läuft lokal** über die Desktop App (nicht über den Botly Server)
+- Donations können als Trigger für Alerts und Action-Chains verwendet werden
 
-## Einrichtung
+## Tipeeestream einrichten
 
-### Tipeeestream
+1. Logge dich bei [tipeeestream.com](https://www.tipeeestream.com) ein
+2. Gehe zu **Dashboard** → **My Api**
+3. Kopiere deinen **API Key**
+4. In der Desktop App → **Donations** → **Tipeeestream**
+5. Füge den API Key ein → **Testen** → **Speichern**
 
-1. Logge dich bei [Tipeeestream](https://www.tipeeestream.com) ein
-2. Gehe zu **API** → kopiere deinen **API Key**
-3. In der Desktop App → **Donations** → **Tipeeestream**
-4. Füge den API Key ein → **Verbinden**
+## StreamElements einrichten
 
-### StreamElements
+1. Logge dich bei [streamelements.com](https://streamelements.com) ein
+2. Gehe zu **Account** → **Channels** → **Show secrets**
+3. Kopiere den **JWT Token**
+4. In der Desktop App → **Donations** → **StreamElements**
+5. Füge den Token ein → **Testen** → **Speichern**
 
-1. Logge dich bei [StreamElements](https://streamelements.com) ein
-2. Gehe zu **Account** → **Channels** → kopiere den **JWT Token**
-3. In der Desktop App → **Donations** → **StreamElements**
-4. Füge den Token ein → **Verbinden**
+## Streamlabs einrichten
 
-### Streamlabs
+1. Logge dich bei [streamlabs.com](https://streamlabs.com) ein
+2. Gehe zu **Settings** → **API Settings**
+3. Kopiere den **Socket API Token**
+4. In der Desktop App → **Donations** → **Streamlabs**
+5. Füge den Token ein → **Testen** → **Speichern**
 
-1. Logge dich bei [Streamlabs](https://streamlabs.com) ein
-2. Gehe zu **Settings** → **API Settings** → kopiere den **Socket API Token**
-3. In der Desktop App → **Donations** → **Streamlabs**
-4. Füge den Token ein → **Verbinden**
+## Ko-Fi einrichten
 
-### Ko-Fi
+1. Logge dich bei [ko-fi.com](https://ko-fi.com) ein
+2. Gehe zu **Einstellungen** → **API**
+3. Kopiere den **Verification Token**
+4. Im Botly Dashboard: Ko-Fi **Webhook URL** eintragen
+5. In der Desktop App → **Donations** → **Ko-Fi** → Token eingeben → **Speichern**
 
-1. Logge dich bei [Ko-Fi](https://ko-fi.com) ein
-2. Gehe zu **Settings** → **API** → kopiere den **Webhook Token**
-3. Im Botly Dashboard unter **Einstellungen** → trage die **Ko-Fi Webhook URL** ein
-4. In der Desktop App → **Donations** → **Ko-Fi** → Token eingeben → **Verbinden**
+!!! warning "Ko-Fi Webhook"
+    Ko-Fi nutzt Webhooks statt WebSocket. Die Desktop App muss über das Internet erreichbar sein (lokal oder mit Tunnel). Die anderen 3 Anbieter funktionieren komplett lokal.
 
 ## Donation als Trigger
 
-Donations können als Trigger in [Action-Chains](action-chains.md) verwendet werden:
-
-| Trigger | Beschreibung |
-|---------|-------------|
-| **Tipeeestream Donation** | Spende über Tipeeestream |
-| **StreamElements Donation** | Spende über StreamElements |
-| **Streamlabs Donation** | Spende über Streamlabs |
-| **Ko-Fi Donation** | Spende über Ko-Fi |
+Donations können als Trigger in [Action-Chains](action-chains.md) und als Alert-Event im [Alert-Editor](alert-editor.md) verwendet werden.
 
 ### Bedingungen
 
 - **Mindestbetrag** — Chain nur ab einem bestimmten Betrag auslösen
-- **Cooldown** — Verhindert Spam bei vielen kleinen Spenden
+- **Nur mit Nachricht** — Nur wenn der Spender eine Nachricht geschrieben hat
 
 ### Verfügbare Variablen
 

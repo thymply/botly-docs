@@ -99,3 +99,24 @@ Alerts können optional vorgelesen werden:
 3. Passe **Geschwindigkeit** und **Lautstärke** an
 
 TTS nutzt die Browser Speech Synthesis API — keine zusätzlichen Kosten.
+
+## Hintergrund-Layout
+
+Beim Layout **"Hintergrund"** wird das Bild als Hintergrund verwendet und der Text darüber gelegt.
+
+- **Ausrichtung:** Oben, Zentriert oder Unten
+- **Alert-Größe:** Passt sich automatisch an die Bildgröße an
+- Das Bild füllt den gesamten Alert-Bereich aus
+
+## Responsive Vorschau
+
+Die Vorschau-Bühne passt sich dem verfügbaren Platz an:
+
+- **16:9 Seitenverhältnis** (wie ein OBS-Stream)
+- Alert bleibt in seiner **konfigurierten Größe** innerhalb der Bühne
+- Wenn der Alert größer als die Bühne ist, wird er automatisch **herunterskaliert** (nie hochskaliert)
+- **Breite/Höhe** Felder unter der Vorschau steuern die Alert-Größe (bis 1920x1080)
+- Vorschau kann per Button ein-/ausgeblendet werden
+
+!!! info "Alert-Kanäle"
+    Für verschiedene Alert-Typen (z.B. Vollbild-Raids vs. kleine Follow-Alerts) kannst du separate OBS Browser Sources nutzen. Siehe [Alert-Kanäle](alert-kanaele.md).
