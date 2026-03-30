@@ -5,75 +5,69 @@ description: Free, Pro und Premium im Vergleich — finde den passenden Plan fü
 
 # Pläne & Preise
 
-Botly bietet flexible Pläne für jeden Streamer — vom Hobby bis zum Vollzeit-Stream.
+## Übersicht
 
-## Vergleichstabelle
+Botly bietet flexible Pläne für jeden Streamer — vom Hobbystreamer bis zum Vollzeit-Creator.
+
+### Monatliche Abrechnung
 
 | | Free | Pro | Premium |
-|---|:---:|:---:|:---:|
-| **Preis** | 0 € | 4,99 €/Monat | 8,99 €/Monat |
-| Commands (unbegrenzt) | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| AutoMod (alle Plattformen) | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Giveaways, Mitspieler | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Timer | max. 3 | Unbegrenzt | Unbegrenzt |
-| Counter | max. 1 | Unbegrenzt | Unbegrenzt |
-| Reaction Role Panels | max. 1 | Unbegrenzt | Unbegrenzt |
-| Live-Ankündigungen | max. 1 Streamer | Unbegrenzt | Unbegrenzt |
-| Editoren | max. 1 | Unbegrenzt | Unbegrenzt |
-| Discord-Server | 1 | 3 | 5 |
-| Duplikaterkennung | — | :white_check_mark: | :white_check_mark: |
-| Kanalpunkte | — | :white_check_mark: | :white_check_mark: |
-| **Desktop App (CrossChat + OBS)** | — | :white_check_mark: | :white_check_mark: |
-| **Desktop App komplett** | — | — | :white_check_mark: |
-| Alert-Editor | — | — | :white_check_mark: |
-| Action-Chains | — | — | :white_check_mark: |
-| Medien-Bibliothek | — | — | :white_check_mark: |
-| Donation-Integration | — | — | :white_check_mark: |
+|---|---|---|---|
+| Preis | 0€ | 4,99€/Monat | 8,99€/Monat |
+| Commands | Unbegrenzt | Unbegrenzt | Unbegrenzt |
+| OBS-Regeln | 5 | Unbegrenzt | Unbegrenzt |
+| OBS Relay | ✅ | ✅ | ✅ |
+| Timer, Counter, Giveaway | Mit Limits | Ohne Limits | Ohne Limits |
+| Duplikat-Nachrichten | ❌ | ✅ | ✅ |
+| Eskalationsstufen | ❌ | ✅ | ✅ |
+| Channel Points | ❌ | ✅ | ✅ |
+| Erweiterte AutoMod-Filter | ❌ | ✅ | ✅ |
+| Botly Desktop App | ❌ | CrossChat only | Vollständig |
+| Auto-Clip | ❌ | ❌ | ✅ |
+| Clips Dashboard | ❌ | ❌ | ✅ |
+| CrossChat Bridge | ❌ | ✅ | ✅ |
+| Alert-Editor | ❌ | ❌ | ✅ |
+| Action Builder | ❌ | ❌ | ✅ |
+| Support | Community | Priority | Premium |
 
-## Desktop Lifetime
+### Jährliche Abrechnung — 2 Monate gratis
 
-| Option | Preis | Desktop App |
-|--------|-------|-------------|
-| **Desktop Lifetime** | 89 € einmalig | Dauerhaft freigeschaltet |
-| Lifetime + Pro | 4,99 €/Monat | Desktop dauerhaft + Dashboard erweitert |
-| Lifetime + Premium | 5,99 €/Monat | Desktop dauerhaft + Dashboard komplett |
+| Plan | Monatlich | Jährlich | Ersparnis |
+|---|---|---|---|
+| Pro | 4,99€/Monat | 49,90€/Jahr (4,16€/Monat) | 9,98€ |
+| Premium | 8,99€/Monat | 89,90€/Jahr (7,49€/Monat) | 17,98€ |
 
-!!! tip "Wann lohnt sich Lifetime?"
-    Wenn du die Desktop App länger als 10 Monate nutzen willst, sparst du mit Lifetime. Und du behältst den Zugang auch wenn du dein Abo mal pausierst.
+### Desktop Lifetime
 
-## KI Add-on
+Einmalzahlung: **99€**
 
-| Option | Preis | Was ist enthalten |
-|--------|-------|-------------------|
-| **KI Add-on** | 4,99 €/Monat | Eigener API Key (OpenAI, Anthropic, Ollama) |
-| **Managed KI Basic** | 9,99 €/Monat | Botly Key, 5.000 Nachrichten/Monat |
-| **Managed KI Unlimited** | 14,99 €/Monat | Botly Key, unbegrenzt |
+- Botly Desktop App dauerhaft freigeschaltet
+- Kombinierbar mit Pro (4,99€/Monat) oder Premium (5,99€/Monat)
+- Ohne Abo: nur Desktop-Funktionen, kein Dashboard-Premium
 
-!!! info "KI Add-on vs. Managed KI"
-    Beim **KI Add-on** bringst du deinen eigenen API Key mit. Bei **Managed KI** stellt Botly den Key und du zahlst nach Volumen.
+### KI Add-on
 
-## Upgrade & Kündigung
+| Plan | Preis | Beschreibung |
+|---|---|---|
+| KI Add-on | 4,99€/Monat (oder 49,90€/Jahr) | Eigener API-Key, zu Pro oder Premium |
+| Managed KI Basic | 9,99€/Monat | 5.000 Nachrichten/Monat, kein eigener Key nötig |
+| Managed KI Unlimited | 14,99€/Monat | Unbegrenzte Nachrichten, kein eigener Key nötig |
 
-- **Upgraden:** Im Dashboard unter Abonnement → Plan wählen → Stripe Checkout
-- **Downgraden:** Abo verwalten (Stripe) → günstigerer Plan → am Ende der Laufzeit aktiv
-- **Kündigen:** Abo verwalten → Kündigen → Plan bleibt bis Laufzeitende aktiv
+Managed KI Pläne sind nur monatlich verfügbar (kein Jahresabo).
 
-!!! note "Daten bleiben erhalten"
-    Bei Downgrade oder Kündigung werden Einstellungen nicht gelöscht, nur deaktiviert.
+## Häufige Fragen zu Plänen
 
-## Entscheidungshilfe
+**Kann ich jederzeit wechseln?**
+Ja. Upgrades werden sofort aktiv, Downgrades zum Ende der aktuellen Abrechnungsperiode.
 
-??? question "Brauche ich Pro?"
-    **Ja**, wenn du mehr als 3 Timer, mehr als 1 Counter oder die Desktop App für CrossChat oder OBS brauchst.
+**Was passiert wenn ich kündige?**
+Dein Account bleibt bestehen und wechselt zum Free-Plan. Deine Commands, Counter und Einstellungen bleiben erhalten.
 
-??? question "Brauche ich Premium?"
-    **Ja**, wenn du die Desktop App mit Alert-Editor, Action-Chains und Donation-Integration willst.
+**Brauche ich für YouTube einen eigenen API-Key?**
+Ja. YouTube API-Keys werden immer vom User bereitgestellt, nicht von Botly.
 
-??? question "Lifetime + Pro oder Lifetime + Premium?"
-    **Lifetime + Pro** (4,99 €/Monat): Desktop App komplett + erweiterte Dashboard-Features. **Lifetime + Premium** (5,99 €/Monat): Alles aus Pro + 5 Discord-Server, Auto-Clip, Clips Dashboard.
-
-??? question "Was passiert wenn ich kündige?"
-    Dein Plan bleibt bis zum Ende der bezahlten Laufzeit aktiv. Danach wechselst du auf Free. Einstellungen bleiben gespeichert.
+**Was ist im Desktop Lifetime enthalten?**
+Die Desktop App mit allen Desktop-Funktionen. Dashboard-Features (Commands, Counter, AutoMod etc.) erfordern zusätzlich einen Pro- oder Premium-Plan.
 
 ## Zahlungsmethoden
 
