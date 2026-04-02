@@ -1,79 +1,184 @@
 ---
 title: Variablen-Referenz
-description: Alle verfügbaren Variablen für Commands, Alerts und Action-Chains.
+description: Alle verfügbaren Variablen für Commands, Nachrichten und Templates.
 ---
 
 # Variablen-Referenz
 
-Vollständige Liste aller Variablen die du in Commands, Alerts und Action-Chains verwenden kannst.
+Variablen werden in geschweiften Klammern geschrieben: `{variable}` oder `{variable:parameter}`.
+Du kannst sie in Commands, Willkommensnachrichten, AutoMod-Warnungen und Live-Ankündigungen verwenden.
 
-## Twitch-Events
+## Command-Variablen
 
-| Variable | Beschreibung | Verfügbar in |
-|----------|-------------|-------------|
-| `{username}` / `$(user)` | Anzeigename des Users | Alle Events |
-| `{user_id}` | Twitch User-ID | Alle Events |
-| `{channel}` / `$(channel)` | Kanalname | Alle Events |
-| `{game}` / `$(game)` | Aktuelle Twitch-Kategorie | Alle Events |
-| `{title}` / `$(title)` | Stream-Titel | Alle Events |
-| `{viewers}` | Aktuelle Zuschauerzahl | Alle Events |
-| `{uptime}` / `$(uptime)` | Stream-Dauer | Alle Events |
-| `{tier}` | Abo-Stufe (1, 2, 3) | Sub, Gift Sub |
-| `{months}` | Gesamte Abo-Monate | Sub |
-| `{streak}` | Abo-Streak | Sub |
-| `{message}` | Benutzer-Nachricht | Sub, Bits, Donation |
-| `{amount}` | Betrag / Anzahl | Bits, Donation, Raid |
-| `{followage}` / `$(followage)` | Follower-Dauer | Follow, Commands |
-| `{watchtime}` / `$(watchtime)` | Zuschauzeit | Commands |
-| `{count}` / `$(count)` | Aufrufzähler des Commands | Commands |
-| `{args}` / `$(args)` | Text nach dem Command | Commands |
+### Basis (Free)
 
-!!! info "Zwei Schreibweisen"
-    Variablen funktionieren in beiden Schreibweisen: `{variable}` und `$(variable)`. Nutze was dir besser gefällt.
+| Variable | Beschreibung | Beispiel-Eingabe | Beispiel-Ausgabe |
+|----------|-------------|-----------------|-----------------|
+| `{user}` | Dein Anzeigename | — | `Night` |
+| `{channel}` | Kanalname | — | `die_prototypen` |
+| `{touser}` | Erwähnter User oder du selbst | `!hug @Night` → `Night` | `!hug` → dein Name |
+| `{query}` | Alles nach dem Command | `!wiki Python Programmierung` | `Python Programmierung` |
+| `{userlevel}` | Deine Rolle im Chat | — | `moderator`, `subscriber`, `everyone` |
+| `{count}` | Aufrufzähler (persistent) | — | `42` (zählt immer weiter) |
+| `{count_stream}` | Aufrufzähler (pro Stream) | — | `7` (resettet bei Stream-Start) |
 
-## YouTube-Events
+**Beispiele:**
 
-| Variable | Beschreibung | Verfügbar in |
-|----------|-------------|-------------|
-| `{username}` | YouTube-Kanalname | Alle Events |
-| `{amount}` | Super Chat Betrag | Super Chat |
-| `{currency}` | Währung | Super Chat |
-| `{message}` | Nachrichtentext | Super Chat, Chat |
-| `{level}` | Mitgliedschafts-Level | New Member |
+```
+!hug → {user} umarmt {touser}! ({count} Umarmungen insgesamt)
+!rank → {user}, du bist {userlevel} in diesem Chat.
+!fluchen → Der Streamer hat {count_stream} Mal geflucht in diesem Stream!
+```
 
-## Discord-Events
+### Zeit (Free)
 
-| Variable | Beschreibung | Verfügbar in |
-|----------|-------------|-------------|
-| `{user}` | @Mention des Users | Member Join, Reaction |
-| `{username}` | Name ohne Mention | Member Join |
-| `{server}` | Server-Name | Alle Events |
-| `{channel}` | Kanal-Name | Reaction |
-| `{membercount}` | Mitgliederzahl | Member Join |
+| Variable | Beschreibung | Beispiel-Eingabe | Beispiel-Ausgabe |
+|----------|-------------|-----------------|-----------------|
+| `{time}` | Aktuelle Uhrzeit (CET) | — | `14:30` |
+| `{time:Zone}` | Uhrzeit in Zeitzone | `{time:America/New_York}` | `8:30` |
+| `{countdown:Datum}` | Zeit bis zu einem Datum | `{countdown:Dec 25 2026 00:00}` | `3 Tage, 5 Stunden, 20 Minuten` |
+| `{countup:Datum}` | Zeit seit einem Datum | `{countup:Jan 01 2024}` | `2 Jahre, 3 Monate, 1 Tag` |
 
-## Donation-Events
+**Unterstützte Zeitzonen:** `CET`, `EST`, `PST`, `GMT`, `JST` oder IANA-Format wie `Europe/Berlin`, `America/New_York`.
 
-| Variable | Beschreibung | Verfügbar in |
-|----------|-------------|-------------|
-| `{username}` | Name des Spenders | Alle Anbieter |
-| `{amount}` | Spenden-Betrag | Alle Anbieter |
-| `{currency}` | Währung (EUR, USD, etc.) | Alle Anbieter |
-| `{message}` | Spenden-Nachricht | Alle Anbieter |
-| `{provider}` | Anbieter-Name | Alle Anbieter |
+**Beispiele:**
 
-## Counter-Variablen
+```
+!zeit → Es ist {time} Uhr in Deutschland und {time:America/New_York} in New York.
+!weihnachten → Noch {countdown:Dec 25 2026 00:00} bis Weihnachten!
+!streaming → Ich streame seit {countup:Mar 15 2023} auf Twitch!
+```
+
+### Stream (Free)
+
+| Variable | Beschreibung | Beispiel-Ausgabe |
+|----------|-------------|-----------------|
+| `{uptime}` | Stream-Laufzeit | `2h 35m` |
+| `{title}` | Aktueller Stream-Titel | `Chill-Stream mit Community` |
+| `{game}` | Aktuelle Kategorie/Spiel | `Just Chatting` |
+| `{followage}` | Wie lange du dem Kanal folgst (nur Twitch) | `1 Jahr, 3 Monate` |
+| `{watchtime}` | Deine Zuschauzeit in dieser Session | `45m` |
+
+**Beispiele:**
+
+```
+!uptime → {channel} streamt seit {uptime} — {game}: {title}
+!followage → {user} folgt seit {followage}!
+```
+
+### Extern (Pro/Premium) :material-crown:{ .pro-badge }
+
+Diese Variablen sind nur für **Pro** und **Premium** Nutzer verfügbar. Free-User sehen `[Pro erforderlich]`.
+
+| Variable | Beschreibung | API |
+|----------|-------------|-----|
+| `{weather:Ort}` | Aktuelles Wetter | Open-Meteo (kostenlos) |
+| `{twitch:User}` | Twitch-Profil-Info | Twitch API |
+| `{steam:User}` | Steam-Profil-Info | Steam Web API |
+| `{urlfetch:URL}` | Externe API aufrufen (Text) | HTTP GET |
+| `{urlfetch_json:URL:pfad}` | Externe API aufrufen (JSON-Feld) | HTTP GET + JSON |
+
+#### {weather:Ort}
+
+```
+!wetter → {weather:Berlin}
+→ "Wetter in Berlin: 18°C, Bewölkt, Wind 12 km/h"
+```
+
+#### {twitch:User}
+
+```
+!check → {twitch:thymply}
+→ "thymply streamt Just Chatting — Chill Stream" oder "thymply ist offline"
+```
+
+#### {steam:User}
+
+```
+!steam → {steam:night}
+→ "Night spielt Counter-Strike 2" oder "Night ist Online auf Steam"
+```
+
+!!! info "Steam API Key"
+    Für Steam-Variablen muss ein Steam Web API Key konfiguriert sein.
+
+#### {urlfetch:URL}
+
+Ruft eine externe URL auf und gibt die Antwort als Text zurück.
+
+```
+!joke → {urlfetch:https://api.example.com/random-joke}
+→ "Warum können Geister so schlecht lügen? Weil man durch sie hindurchsieht."
+```
+
+- Nur HTTPS-URLs erlaubt
+- Maximal 400 Zeichen Antwort
+- Timeout: 3 Sekunden
+- Rate-Limit: 1 Aufruf pro 5 Sekunden pro Command
+
+#### {urlfetch_json:URL:pfad}
+
+Wie `{urlfetch}`, aber parst die JSON-Antwort und gibt ein bestimmtes Feld zurück.
+
+```
+!joke → {urlfetch_json:https://api.example.com/jokes/random:joke.text}
+→ "Warum können Geister so schlecht lügen?"
+```
+
+Der Pfad nutzt Punkt-Notation mit Array-Unterstützung:
+
+- `joke.text` → `{"joke": {"text": "..."}}`
+- `data.results[0].name` → `{"data": {"results": [{"name": "..."}]}}`
+
+---
+
+## Nachrichten-Variablen
+
+Diese Variablen stehen in Willkommensnachrichten, AutoMod-Warnungen und Live-Ankündigungen zur Verfügung.
+
+### Willkommen/Verabschiedung
 
 | Variable | Beschreibung |
 |----------|-------------|
-| `{value}` | Aktueller Zählerwert |
-| `{amount}` | Um wie viel geändert wurde |
+| `{user}` | @Mention des Users |
+| `{username}` | Name ohne Mention |
+| `{server}` | Server-Name |
+| `{membercount}` | Aktuelle Mitgliederzahl |
+
+### AutoMod-Warnungen
+
+| Variable | Beschreibung |
+|----------|-------------|
+| `{user}` | @Mention des Users |
+| `{username}` | Name ohne Mention |
+
+### Live-Ankündigungen (Twitch/YouTube)
+
+| Variable | Beschreibung |
+|----------|-------------|
+| `{user}` | Streamer-Name |
+| `{channel}` | Kanalname |
+| `{title}` | Stream-Titel |
+| `{game}` | Spiel/Kategorie |
+| `{url}` | Link zum Stream |
+| `{viewers}` | Zuschauerzahl |
+
+### Counter-Nachrichten
+
+| Variable | Beschreibung |
+|----------|-------------|
+| `{count}` | Aktueller Zählerwert |
 | `{name}` | Name des Counters |
+| `{game}` | Zugeordnetes Spiel |
+| `{user}` | Aufrufender User |
+| `{amount}` | Änderungsbetrag |
 
-## System-Variablen
+### Duplikat-Erkennung
 
-| Variable | Beschreibung | Beispiel |
-|----------|-------------|---------|
-| `{streamer}` | Dein Kanalname | `thymply_` |
-| `{date}` | Aktuelles Datum | `28.03.2026` |
-| `{time}` | Aktuelle Uhrzeit | `14:30` |
-| `{random}` | Zufallszahl (1-100) | `42` |
+| Variable | Beschreibung |
+|----------|-------------|
+| `{mention}` | @Mention des Users |
+| `{game}` | Spielname |
+| `{original}` | Originaler Vorschlag |
+| `{count}` | Wie oft vorgeschlagen |
+| `{link}` | Link zum Original |
