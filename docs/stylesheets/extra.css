@@ -7,13 +7,6 @@
   --md-primary-bg-color--light: #f8fafc;
 }
 
-.md-header {
-  background: #101018 !important;
-}
-
-.md-tabs {
-  background: #14141e !important;
-}
 
 .md-typeset a {
   color: #3b82f6;
@@ -42,4 +35,24 @@
 [data-md-color-scheme="slate"] {
   --md-primary-fg-color: #3b82f6;
   --md-accent-fg-color: #60a5fa;
+  --md-default-bg-color: #0d1117;
+  --md-default-bg-color--light: #111820;
+  --md-footer-bg-color: #0d1117;
+  --md-footer-bg-color--dark: #0a0c10;
+}
+
+[data-md-color-scheme="slate"] .md-header {
+  background: #0d1117 !important;
+}
+
+[data-md-color-scheme="slate"] .md-tabs {
+  background: #0d1117 !important;
+}
+
+[data-md-color-scheme="slate"] .md-footer {
+  background: #0d1117 !important;
+}
+
+[data-md-color-scheme="slate"] .md-footer-meta {
+  background: #0a0c10 !important;
 }
