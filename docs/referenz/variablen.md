@@ -182,3 +182,48 @@ Diese Variablen stehen in Willkommensnachrichten, AutoMod-Warnungen und Live-Ank
 | `{original}` | Originaler Vorschlag |
 | `{count}` | Wie oft vorgeschlagen |
 | `{link}` | Link zum Original |
+
+### Temp Voice Channel Namen
+
+!!! info "Kein @Mention"
+    Im Temp-Voice-Kontext erzeugt `{user}` **keinen** @Mention — anders als in Willkommensnachrichten. Alle Variablen werden als reiner Text eingesetzt, da Discord keine Mentions in Kanalnamen erlaubt.
+
+| Variable | Beschreibung | Beispiel |
+|----------|-------------|---------|
+| `{user}` | Display Name (Server-Nickname oder globaler Name) | `Thymply_` |
+| `{username}` | Eindeutiger Discord Handle (immer Kleinbuchstaben) | `thymply_` |
+| `{game}` | Aktuelles Spiel des Users (Fallback: `Chillen`) | `Minecraft` |
+
+**Beispiel-Templates:**
+
+| Template | Ergebnis |
+|----------|---------|
+| `Kanal von {user}` | `Kanal von Thymply_` |
+| `{username}'s Raum` | `thymply_'s Raum` |
+| `{user} spielt {game}` | `Thymply_ spielt Minecraft` |
+| `Gaming mit {user}` | `Gaming mit Thymply_` |
+
+---
+
+## Plattform-Unterschiede
+
+### `{user}` je nach Kontext
+
+| Kontext | Wert von `{user}` | Pingt den User? |
+|---------|-------------------|:---------------:|
+| **Twitch Command** | Display Name (`Thymply_`) | Nein |
+| **YouTube Command** | Autorenname | Nein |
+| **Discord Welcome** | @Mention (`@Thymply_`) | **Ja** |
+| **Discord AutoMod** | @Mention (`@Thymply_`) | **Ja** |
+| **Discord Temp Voice** | Display Name (`Thymply_`) | Nein |
+
+### `{followage}` und `{watchtime}`
+
+| Variable | Twitch | YouTube |
+|----------|--------|---------|
+| `{followage}` | Follow-Dauer (`1 Jahr, 3 Monate`) | `[Nur Twitch]` |
+| `{watchtime}` | Session-Zuschauzeit | Session-Zuschauzeit |
+
+### YouTube-Kompatibilität
+
+Alle Free-Tier Command-Variablen funktionieren auch auf YouTube — mit Ausnahme von `{followage}` (gibt `[Nur Twitch]` zurück). Pro/Premium-Variablen wie `{weather}`, `{urlfetch}` und `{steam}` funktionieren plattformübergreifend.
