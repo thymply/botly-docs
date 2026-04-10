@@ -6,109 +6,112 @@ description: Alle verfügbaren Variablen für Commands, Nachrichten und Template
 # Variablen-Referenz
 
 Variablen werden in geschweiften Klammern geschrieben: `{variable}` oder `{variable:parameter}`.
-Du kannst sie in Commands, Willkommensnachrichten, AutoMod-Warnungen und Live-Ankündigungen verwenden.
+Du kannst sie in Commands, Willkommensnachrichten, AutoMod-Warnungen, Live-Ankündigungen und mehr verwenden.
 
-## Command-Variablen
+[:flag_gb: English version](variablen-en.md)
+
+---
+
+## Command-Variablen (Twitch & YouTube)
 
 ### Basis (Free)
 
-| Variable | Beschreibung | Beispiel-Eingabe | Beispiel-Ausgabe |
-|----------|-------------|-----------------|-----------------|
-| `{user}` | Dein Anzeigename | — | `Night` |
-| `{channel}` | Kanalname | — | `die_prototypen` |
-| `{touser}` | Erwähnter User oder du selbst | `!hug @Night` → `Night` | `!hug` → dein Name |
-| `{query}` | Alles nach dem Command | `!wiki Python Programmierung` | `Python Programmierung` |
-| `{userlevel}` | Deine Rolle im Chat | — | `moderator`, `subscriber`, `everyone` |
-| `{count}` | Aufrufzähler (persistent) | — | `42` (zählt immer weiter) |
-| `{count_stream}` | Aufrufzähler (pro Stream) | — | `7` (resettet bei Stream-Start) |
+| Variable | Beschreibung | Beispiel-Ausgabe |
+|----------|-------------|-----------------|
+| `{user}` | Dein Anzeigename | `Thymply_` |
+| `{channel}` | Kanalname | `die_prototypen` |
+| `{touser}` | Erwähnter User oder du selbst | `!hug @Night` -> `Night` |
+| `{query}` | Alles nach dem Command | `!wiki Python` -> `Python` |
+| `{userlevel}` | Deine Rolle im Chat | `moderator`, `subscriber`, `everyone` |
+| `{count}` | Aufrufzähler (persistent) | `42` (zählt immer weiter) |
+| `{count_stream}` | Aufrufzähler (pro Stream) | `7` (resettet bei Stream-Start) |
 
 **Beispiele:**
 
 ```
-!hug → {user} umarmt {touser}! ({count} Umarmungen insgesamt)
-!rank → {user}, du bist {userlevel} in diesem Chat.
-!fluchen → Der Streamer hat {count_stream} Mal geflucht in diesem Stream!
+!hug -> {user} umarmt {touser}! ({count} Umarmungen insgesamt)
+!rank -> {user}, du bist {userlevel} in diesem Chat.
+!fluchen -> Der Streamer hat {count_stream} Mal geflucht in diesem Stream!
 ```
 
 ### Zeit (Free)
 
-| Variable | Beschreibung | Beispiel-Eingabe | Beispiel-Ausgabe |
-|----------|-------------|-----------------|-----------------|
-| `{time}` | Aktuelle Uhrzeit (CET) | — | `14:30` |
-| `{time:Zone}` | Uhrzeit in Zeitzone | `{time:America/New_York}` | `8:30` |
-| `{countdown:Datum}` | Zeit bis zu einem Datum | `{countdown:Dec 25 2026 00:00}` | `3 Tage, 5 Stunden, 20 Minuten` |
-| `{countup:Datum}` | Zeit seit einem Datum | `{countup:Jan 01 2024}` | `2 Jahre, 3 Monate, 1 Tag` |
+| Variable | Beschreibung | Beispiel-Ausgabe |
+|----------|-------------|-----------------|
+| `{time}` | Aktuelle Uhrzeit (CET) | `14:30` |
+| `{time:Zone}` | Uhrzeit in Zeitzone | `{time:America/New_York}` -> `8:30` |
+| `{countdown:Datum}` | Zeit bis zu einem Datum | `3 Tage, 5 Stunden, 20 Minuten` |
+| `{countup:Datum}` | Zeit seit einem Datum | `2 Jahre, 3 Monate, 1 Tag` |
 
 **Unterstützte Zeitzonen:** `CET`, `EST`, `PST`, `GMT`, `JST` oder IANA-Format wie `Europe/Berlin`, `America/New_York`.
 
-**Beispiele:**
-
 ```
-!zeit → Es ist {time} Uhr in Deutschland und {time:America/New_York} in New York.
-!weihnachten → Noch {countdown:Dec 25 2026 00:00} bis Weihnachten!
-!streaming → Ich streame seit {countup:Mar 15 2023} auf Twitch!
+!zeit -> Es ist {time} Uhr in Deutschland und {time:America/New_York} in New York.
+!weihnachten -> Noch {countdown:Dec 25 2026 00:00} bis Weihnachten!
+!streaming -> Ich streame seit {countup:Mar 15 2023} auf Twitch!
 ```
 
 ### Stream (Free)
 
-| Variable | Beschreibung | Beispiel-Ausgabe |
-|----------|-------------|-----------------|
-| `{uptime}` | Stream-Laufzeit | `2h 35m` |
-| `{title}` | Aktueller Stream-Titel | `Chill-Stream mit Community` |
-| `{game}` | Aktuelle Kategorie/Spiel | `Just Chatting` |
-| `{followage}` | Wie lange du dem Kanal folgst (nur Twitch) | `1 Jahr, 3 Monate` |
-| `{watchtime}` | Deine Zuschauzeit in dieser Session | `45m` |
+| Variable | Beschreibung | Beispiel-Ausgabe | Plattform |
+|----------|-------------|-----------------|-----------|
+| `{uptime}` | Stream-Laufzeit | `2h 35m` | Twitch + YouTube |
+| `{title}` | Aktueller Stream-Titel | `Chill-Stream mit Community` | Twitch + YouTube |
+| `{game}` | Aktuelle Kategorie/Spiel | `Just Chatting` | Twitch + YouTube |
+| `{followage}` | Wie lange du dem Kanal folgst | `1 Jahr, 3 Monate` | Nur Twitch |
+| `{watchtime}` | Deine Zuschauzeit in dieser Session | `45m` | Twitch + YouTube |
 
-**Beispiele:**
+!!! warning "Nur Twitch"
+    `{followage}` funktioniert nur auf Twitch. Auf YouTube wird `[Nur Twitch]` angezeigt.
 
 ```
-!uptime → {channel} streamt seit {uptime} — {game}: {title}
-!followage → {user} folgt seit {followage}!
+!uptime -> {channel} streamt seit {uptime} -- {game}: {title}
+!followage -> {user} folgt seit {followage}!
 ```
 
 ### Extern (Pro/Premium) :material-crown:{ .pro-badge }
 
 Diese Variablen sind nur für **Pro** und **Premium** Nutzer verfügbar. Free-User sehen `[Pro erforderlich]`.
 
-| Variable | Beschreibung | API |
-|----------|-------------|-----|
-| `{weather:Ort}` | Aktuelles Wetter | Open-Meteo (kostenlos) |
-| `{twitch:User}` | Twitch-Profil-Info | Twitch API |
-| `{steam:User}` | Steam-Profil-Info | Steam Web API |
-| `{urlfetch:URL}` | Externe API aufrufen (Text) | HTTP GET |
-| `{urlfetch_json:URL:pfad}` | Externe API aufrufen (JSON-Feld) | HTTP GET + JSON |
+| Variable | Beschreibung | API | Cache |
+|----------|-------------|-----|-------|
+| `{weather:Ort}` | Aktuelles Wetter | Open-Meteo | 10 Min |
+| `{twitch:User}` | Twitch-Profil-Info | Twitch API | — |
+| `{steam:User}` | Steam-Profil-Info | Steam Web API | — |
+| `{urlfetch:URL}` | Externe API aufrufen (Text) | HTTP GET | — |
+| `{urlfetch_json:URL:pfad}` | Externe API (JSON-Feld) | HTTP GET + JSON | — |
 
 #### {weather:Ort}
 
 ```
-!wetter → {weather:Berlin}
-→ "Wetter in Berlin: 18°C, Bewölkt, Wind 12 km/h"
+!wetter -> {weather:Berlin}
+-> "Wetter in Berlin: 18 Grad C, Bewölkt, Wind 12 km/h"
 ```
 
 #### {twitch:User}
 
 ```
-!check → {twitch:thymply}
-→ "thymply streamt Just Chatting — Chill Stream" oder "thymply ist offline"
+!check -> {twitch:thymply}
+-> "thymply streamt Just Chatting -- Chill Stream" oder "thymply ist offline"
 ```
 
 #### {steam:User}
 
 ```
-!steam → {steam:night}
-→ "Night spielt Counter-Strike 2" oder "Night ist Online auf Steam"
+!steam -> {steam:night}
+-> "Night spielt Counter-Strike 2" oder "Night ist Online auf Steam"
 ```
 
 !!! info "Steam API Key"
-    Für Steam-Variablen muss ein Steam Web API Key konfiguriert sein.
+    Für Steam-Variablen muss ein Steam Web API Key in den Einstellungen konfiguriert sein.
 
 #### {urlfetch:URL}
 
 Ruft eine externe URL auf und gibt die Antwort als Text zurück.
 
 ```
-!joke → {urlfetch:https://api.example.com/random-joke}
-→ "Warum können Geister so schlecht lügen? Weil man durch sie hindurchsieht."
+!joke -> {urlfetch:https://api.example.com/random-joke}
+-> "Warum können Geister so schlecht lügen? Weil man durch sie hindurchsieht."
 ```
 
 - Nur HTTPS-URLs erlaubt
@@ -121,72 +124,51 @@ Ruft eine externe URL auf und gibt die Antwort als Text zurück.
 Wie `{urlfetch}`, aber parst die JSON-Antwort und gibt ein bestimmtes Feld zurück.
 
 ```
-!joke → {urlfetch_json:https://api.example.com/jokes/random:joke.text}
-→ "Warum können Geister so schlecht lügen?"
+!joke -> {urlfetch_json:https://api.example.com/jokes/random:joke.text}
+-> "Warum können Geister so schlecht lügen?"
 ```
 
 Der Pfad nutzt Punkt-Notation mit Array-Unterstützung:
 
-- `joke.text` → `{"joke": {"text": "..."}}`
-- `data.results[0].name` → `{"data": {"results": [{"name": "..."}]}}`
+- `joke.text` -> `{"joke": {"text": "..."}}`
+- `data.results[0].name` -> `{"data": {"results": [{"name": "..."}]}}`
 
 ---
 
-## Nachrichten-Variablen
+## Discord Willkommen & Verabschiedung
 
-Diese Variablen stehen in Willkommensnachrichten, AutoMod-Warnungen und Live-Ankündigungen zur Verfügung.
+| Variable | Beschreibung | Beispiel-Ausgabe | Pingt? |
+|----------|-------------|-----------------|:------:|
+| `{user}` | @Mention des Users | `@Thymply_` | **Ja** |
+| `{username}` | Name ohne Mention | `Thymply_` | Nein |
+| `{server}` | Server-Name | `Mein Discord Server` | Nein |
+| `{membercount}` | Aktuelle Mitgliederzahl | `1337` | Nein |
 
-### Willkommen/Verabschiedung
+**Standard-Begrüßung:** `Willkommen auf dem Server, {user}!`
 
-| Variable | Beschreibung |
-|----------|-------------|
-| `{user}` | @Mention des Users |
-| `{username}` | Name ohne Mention |
-| `{server}` | Server-Name |
-| `{membercount}` | Aktuelle Mitgliederzahl |
+**Standard-Verabschiedung:** `{username} hat den Server verlassen.`
 
-### AutoMod-Warnungen
+```
+Willkommen auf dem Server, {user}! Du bist Mitglied #{membercount} auf {server}!
+```
 
-| Variable | Beschreibung |
-|----------|-------------|
-| `{user}` | @Mention des Users |
-| `{username}` | Name ohne Mention |
+---
 
-### Live-Ankündigungen (Twitch/YouTube)
+## Discord AutoMod-Warnungen
 
-| Variable | Beschreibung |
-|----------|-------------|
-| `{user}` | Streamer-Name |
-| `{channel}` | Kanalname |
-| `{title}` | Stream-Titel |
-| `{game}` | Spiel/Kategorie |
-| `{url}` | Link zum Stream |
-| `{viewers}` | Zuschauerzahl |
+| Variable | Beschreibung | Beispiel-Ausgabe | Pingt? |
+|----------|-------------|-----------------|:------:|
+| `{user}` | @Mention des Verstoßenden | `@Thymply_` | **Ja** |
+| `{username}` | Name ohne Mention | `Thymply_` | Nein |
 
-### Counter-Nachrichten
+Verfügbar in: Spam-Warnung, Link-Filter-Warnung, Schimpfwort-Filter-Warnung.
 
-| Variable | Beschreibung |
-|----------|-------------|
-| `{count}` | Aktueller Zählerwert |
-| `{name}` | Name des Counters |
-| `{game}` | Zugeordnetes Spiel |
-| `{user}` | Aufrufender User |
-| `{amount}` | Änderungsbetrag |
+---
 
-### Duplikat-Erkennung
-
-| Variable | Beschreibung |
-|----------|-------------|
-| `{mention}` | @Mention des Users |
-| `{game}` | Spielname |
-| `{original}` | Originaler Vorschlag |
-| `{count}` | Wie oft vorgeschlagen |
-| `{link}` | Link zum Original |
-
-### Temp Voice Channel Namen
+## Discord Temp Voice Channel Namen
 
 !!! info "Kein @Mention"
-    Im Temp-Voice-Kontext erzeugt `{user}` **keinen** @Mention — anders als in Willkommensnachrichten. Alle Variablen werden als reiner Text eingesetzt, da Discord keine Mentions in Kanalnamen erlaubt.
+    Im Temp-Voice-Kontext erzeugt `{user}` **keinen** @Mention. Alle Variablen werden als reiner Text eingesetzt, da Discord keine Mentions in Kanalnamen erlaubt.
 
 | Variable | Beschreibung | Beispiel |
 |----------|-------------|---------|
@@ -201,29 +183,119 @@ Diese Variablen stehen in Willkommensnachrichten, AutoMod-Warnungen und Live-Ank
 | `Kanal von {user}` | `Kanal von Thymply_` |
 | `{username}'s Raum` | `thymply_'s Raum` |
 | `{user} spielt {game}` | `Thymply_ spielt Minecraft` |
-| `Gaming mit {user}` | `Gaming mit Thymply_` |
 
 ---
 
-## Plattform-Unterschiede
+## Discord Live-Ankündigungen
+
+### Twitch-Stream
+
+| Variable | Beschreibung | Beispiel-Ausgabe |
+|----------|-------------|-----------------|
+| `{user}` | Streamer Anzeigename | `Thymply_` |
+| `{channel}` | Twitch-Kanalname | `thymply_` |
+| `{title}` | Stream-Titel | `Chill-Stream mit Community` |
+| `{game}` | Spiel/Kategorie | `Just Chatting` |
+| `{url}` | Link zum Stream | `https://twitch.tv/thymply_` |
+| `{viewers}` | Zuschauerzahl | `142` |
+| `{mention}` | @Mention des Discord-Users | `@Thymply_` |
+| `{vod}` | Link zum letzten VOD (falls vorhanden) | `https://twitch.tv/videos/...` |
+
+### YouTube-Stream
+
+| Variable | Beschreibung | Beispiel-Ausgabe |
+|----------|-------------|-----------------|
+| `{user}` | Kanalname | `einfruechtchen` |
+| `{channel}` | Kanalname | `einfruechtchen` |
+| `{title}` | Stream-Titel | `Minecraft Survival` |
+| `{url}` | Link zum Stream | `https://youtube.com/watch?v=...` |
+| `{viewers}` | Zuschauerzahl | `85` |
+
+### Kombinierte Ankündigung (Twitch + YouTube gleichzeitig)
+
+| Variable | Beschreibung |
+|----------|-------------|
+| `{streamer}` | Streamer-Name |
+| `{twitch_name}` | Twitch-Kanalname |
+| `{youtube_name}` | YouTube-Kanalname |
+| `{twitch_url}` | Twitch-Stream-URL |
+| `{youtube_url}` | YouTube-Stream-URL |
+| `{twitch_game}` | Twitch-Kategorie |
+| `{title}` | Stream-Titel |
+| `{viewers}` | Zuschauerzahl |
+
+---
+
+## Discord Tickets
+
+| Variable | Beschreibung | Beispiel-Ausgabe | Pingt? |
+|----------|-------------|-----------------|:------:|
+| `{user}` | @Mention des Ticket-Erstellers | `@Thymply_` | **Ja** |
+
+Verfügbar in der Ticket-Begrüßungsnachricht.
+
+---
+
+## Discord Duplikat-Erkennung
+
+| Variable | Beschreibung | Beispiel-Ausgabe |
+|----------|-------------|-----------------|
+| `{mention}` | @Mention des Users | `@Thymply_` |
+| `{game}` | Spielname | `Minecraft` |
+| `{original}` | Wer es zuerst vorgeschlagen hat | `Night` |
+| `{count}` | Wie oft vorgeschlagen | `3` |
+| `{link}` | Link zum Original-Vorschlag | `https://discord.com/channels/...` |
+
+---
+
+## Discord Counter-Nachrichten
+
+| Variable | Beschreibung | Beispiel-Ausgabe |
+|----------|-------------|-----------------|
+| `{count}` | Aktueller Zählerwert | `42` |
+| `{name}` | Name des Counters | `Deaths` |
+| `{game}` | Zugeordnetes Spiel | `Elden Ring` |
+| `{user}` | Aufrufender User | `Thymply_` |
+| `{amount}` | Änderungsbetrag | `1` |
+
+---
+
+## Twitch Werbe-Ankündigung
+
+| Variable | Beschreibung | Beispiel-Ausgabe |
+|----------|-------------|-----------------|
+| `{duration}` | Werbedauer in Sekunden | `90` |
+| `{minutes}` | Werbedauer in Minuten (gerundet) | `1.5` |
+| `{type}` | Art der Werbepause | `manuell` oder `automatisch` |
+
+**Nachricht bei Werbebeginn:**
+```
+Werbepause ({duration}s)! Lehnt euch zurück, bin gleich wieder da!
+```
+
+**Vorwarnungen:** In Vorwarnungs-Nachrichten stehen zusätzlich zur Verfügung:
+
+| Variable | Beschreibung | Beispiel-Ausgabe |
+|----------|-------------|-----------------|
+| `{seconds}` | Sekunden bis zur Werbung | `30` |
+| `{minutes}` | Minuten bis zur Werbung | `0.5` |
+
+---
+
+## Plattform-Übersicht
 
 ### `{user}` je nach Kontext
 
-| Kontext | Wert von `{user}` | Pingt den User? |
-|---------|-------------------|:---------------:|
+| Kontext | Wert | Pingt? |
+|---------|------|:------:|
 | **Twitch Command** | Display Name (`Thymply_`) | Nein |
 | **YouTube Command** | Autorenname | Nein |
 | **Discord Welcome** | @Mention (`@Thymply_`) | **Ja** |
 | **Discord AutoMod** | @Mention (`@Thymply_`) | **Ja** |
 | **Discord Temp Voice** | Display Name (`Thymply_`) | Nein |
-
-### `{followage}` und `{watchtime}`
-
-| Variable | Twitch | YouTube |
-|----------|--------|---------|
-| `{followage}` | Follow-Dauer (`1 Jahr, 3 Monate`) | `[Nur Twitch]` |
-| `{watchtime}` | Session-Zuschauzeit | Session-Zuschauzeit |
+| **Discord Tickets** | @Mention (`@Thymply_`) | **Ja** |
+| **Discord Counter** | Aufrufender User | Nein |
 
 ### YouTube-Kompatibilität
 
-Alle Free-Tier Command-Variablen funktionieren auch auf YouTube — mit Ausnahme von `{followage}` (gibt `[Nur Twitch]` zurück). Pro/Premium-Variablen wie `{weather}`, `{urlfetch}` und `{steam}` funktionieren plattformübergreifend.
+Alle Free-Tier Command-Variablen funktionieren auch auf YouTube -- mit Ausnahme von `{followage}` (gibt `[Nur Twitch]` zurück). Pro/Premium-Variablen wie `{weather}`, `{urlfetch}` und `{steam}` funktionieren plattformübergreifend.

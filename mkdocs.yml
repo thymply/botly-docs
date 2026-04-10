@@ -86,6 +86,7 @@ nav:
     - KI-Assistent: desktop/ki.md
   - Referenz:
     - Variablen: referenz/variablen.md
+    - Variables (EN): referenz/variablen-en.md
     - Trigger-Typen: referenz/trigger-typen.md
     - Aktions-Typen: referenz/aktions-typen.md
     - Berechtigungen: referenz/berechtigungen.md
