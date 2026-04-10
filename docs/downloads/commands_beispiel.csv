@@ -1,0 +1,6 @@
+command;response;cooldown;userlevel
+!social;Folge mir auf Twitter: @meinkanal und Instagram: @meinkanal;30;everyone
+!discord;Unser Discord-Server: discord.gg/mein-server — Komm vorbei!;10;everyone
+!so;Schaut mal bei {touser} vorbei! Ein toller Streamer: https://twitch.tv/{touser};5;mod
+!ping;Pong! Botly ist online und bereit 🤖;10;everyone
+!lurk;{user} schleicht sich in die Ecke und schaut heimlich zu. Viel Spaß beim Lurken!;5;everyone

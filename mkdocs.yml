@@ -55,6 +55,7 @@ nav:
       - Auto-Clip: dashboard/twitch/auto-clip.md
       - Clips Dashboard: dashboard/twitch/clips-dashboard.md
       - Editoren: dashboard/twitch/editoren.md
+      - Bot-Import: dashboard/twitch/import.md
     - YouTube Bot:
       - Bot-Status: dashboard/youtube/bot-status.md
       - AutoMod: dashboard/youtube/automod.md
@@ -87,6 +88,7 @@ nav:
     - Variablen: referenz/variablen.md
     - Trigger-Typen: referenz/trigger-typen.md
     - Aktions-Typen: referenz/aktions-typen.md
+    - Berechtigungen: referenz/berechtigungen.md
   - Integrationen:
     - OBS Studio: integrationen/obs.md
     - Twitch: integrationen/twitch.md
