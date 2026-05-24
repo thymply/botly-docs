@@ -41,8 +41,41 @@ You can use them in commands, welcome messages, automod warnings, live announcem
 | `{time:Zone}` | Time in timezone | `{time:America/New_York}` -> `8:30` |
 | `{countdown:Date}` | Time until a date | `3 days, 5 hours, 20 minutes` |
 | `{countup:Date}` | Time since a date | `2 years, 3 months, 1 day` |
+| `{date}` | Current date (DD.MM.YYYY) | `24.05.2026` |
+| `{date:FORMAT}` | Date in specific format | `{date:long}` → `24. May 2026` |
 
 **Supported timezones:** `CET`, `EST`, `PST`, `GMT`, `JST` or IANA format like `Europe/Berlin`, `America/New_York`.
+
+**{date} formats:**
+
+| Format | Example | Description |
+|--------|---------|-------------|
+| `{date}` | `24.05.2026` | Default (DD.MM.YYYY) |
+| `{date:short}` | `24.05.26` | Short (DD.MM.YY) |
+| `{date:iso}` | `2026-05-24` | ISO 8601 |
+| `{date:long}` | `24. May 2026` | Long written out |
+| `{date:weekday}` | `Saturday` | Day of the week |
+| `{date:month}` | `May 2026` | Month and year |
+| `{date:us}` | `May 24 2026` | US format |
+| `{date:us_long}` | `May 24, 2026` | US format long |
+
+```
+!date -> Today is {date:weekday}, {date:long}.
+!countdown -> {countdown:Dec 25 2026 00:00} until Christmas!
+```
+
+### Random (Free)
+
+| Variable | Description | Example Output |
+|----------|------------|----------------|
+| `{random.X-Y}` | Random number between X and Y | `{random.1-100}` → `42` |
+| `{random:a\|b\|c}` | Random element from list (pipe-separated) | `{random:yes\|no\|maybe}` → `no` |
+
+```
+!8ball -> {random:yes|no|maybe|ask later|absolutely not}
+!roll -> {user} rolls a {random.1-6}!
+!choose -> {random:Rock|Paper|Scissors}
+```
 
 ### Stream (Free)
 

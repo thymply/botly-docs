@@ -13,7 +13,6 @@ Nutze KI für Chat-Moderation, automatische Antworten und kreative Interaktionen
 |--------|---------|--------|-------------|
 | **Lokal** | Ollama | Kostenlos | Daten bleiben auf deinem PC |
 | **Cloud** | OpenAI, Anthropic | Eigener API Key | Daten an Anbieter |
-| **Managed** | Botly | 9,99-14,99 EUR/Monat | Botly verwaltet Key |
 
 ## Lokal mit Ollama
 
@@ -47,15 +46,6 @@ Nutze KI für Chat-Moderation, automatische Antworten und kreative Interaktionen
 
 Die Kosten hängen vom Anbieter und der Nutzung ab. Für Chat-Moderation und Antworten rechne mit 1-5 EUR/Monat bei normaler Nutzung.
 
-## Managed KI Service
-
-Botly stellt den API Key — du zahlst einen festen Monatsbetrag:
-
-| Plan | Preis | Nachrichten |
-|------|-------|-------------|
-| **Basic** | 9,99 EUR/Monat | 5.000/Monat |
-| **Unlimited** | 14,99 EUR/Monat | Unbegrenzt |
-
 ## KI-Funktionen
 
 ### Chat-Moderation
@@ -74,4 +64,4 @@ Die KI antwortet auf bestimmte Trigger-Wörter im Chat. Konfiguriere:
 - **System-Prompt** — Wie sich die KI verhalten soll
 
 !!! info "KI Add-on erforderlich"
-    Alle KI-Funktionen erfordern das KI Add-on (4,99 EUR/Monat eigener Key) oder einen Managed KI Plan.
+    Alle KI-Funktionen erfordern das **KI Add-on** (4,99 EUR/Monat, eigener API-Key erforderlich).

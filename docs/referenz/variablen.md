@@ -42,13 +42,42 @@ Du kannst sie in Commands, Willkommensnachrichten, AutoMod-Warnungen, Live-Ankü
 | `{time:Zone}` | Uhrzeit in Zeitzone | `{time:America/New_York}` -> `8:30` |
 | `{countdown:Datum}` | Zeit bis zu einem Datum | `3 Tage, 5 Stunden, 20 Minuten` |
 | `{countup:Datum}` | Zeit seit einem Datum | `2 Jahre, 3 Monate, 1 Tag` |
+| `{date}` | Aktuelles Datum (DD.MM.YYYY) | `24.05.2026` |
+| `{date:FORMAT}` | Datum in bestimmtem Format | `{date:long}` → `24. Mai 2026` |
 
 **Unterstützte Zeitzonen:** `CET`, `EST`, `PST`, `GMT`, `JST` oder IANA-Format wie `Europe/Berlin`, `America/New_York`.
+
+**{date} Formate:**
+
+| Format | Beispiel | Beschreibung |
+|--------|---------|-------------|
+| `{date}` | `24.05.2026` | Standard (DD.MM.YYYY) |
+| `{date:short}` | `24.05.26` | Kurz (DD.MM.YY) |
+| `{date:iso}` | `2026-05-24` | ISO 8601 |
+| `{date:long}` | `24. Mai 2026` | Ausgeschrieben |
+| `{date:weekday}` | `Samstag` | Wochentag |
+| `{date:month}` | `Mai 2026` | Monat und Jahr |
+| `{date:us}` | `May 24 2026` | US-Format |
+| `{date:us_long}` | `May 24, 2026` | US-Format lang |
 
 ```
 !zeit -> Es ist {time} Uhr in Deutschland und {time:America/New_York} in New York.
 !weihnachten -> Noch {countdown:Dec 25 2026 00:00} bis Weihnachten!
 !streaming -> Ich streame seit {countup:Mar 15 2023} auf Twitch!
+!datum -> Heute ist {date:weekday}, der {date:long}.
+```
+
+### Zufall (Free)
+
+| Variable | Beschreibung | Beispiel-Ausgabe |
+|----------|-------------|-----------------|
+| `{random.X-Y}` | Zufallszahl zwischen X und Y | `{random.1-100}` → `42` |
+| `{random:a\|b\|c}` | Zufälliges Element aus Liste (Pipe-getrennt) | `{random:ja\|nein\|vielleicht}` → `nein` |
+
+```
+!8ball -> {random:ja|nein|vielleicht|frag morgen|absolut nicht}
+!würfeln -> {user} würfelt eine {random.1-6}!
+!choose -> {random:Schere|Stein|Papier}
 ```
 
 ### Stream (Free)

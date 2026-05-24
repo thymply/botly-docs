@@ -50,10 +50,6 @@ Einmalzahlung: **99€**
 | Plan | Preis | Beschreibung |
 |---|---|---|
 | KI Add-on | 4,99€/Monat (oder 49,90€/Jahr) | Eigener API-Key, zu Pro oder Premium |
-| Managed KI Basic | 9,99€/Monat | 5.000 Nachrichten/Monat, kein eigener Key nötig |
-| Managed KI Unlimited | 14,99€/Monat | Unbegrenzte Nachrichten, kein eigener Key nötig |
-
-Managed KI Pläne sind nur monatlich verfügbar (kein Jahresabo).
 
 ## Häufige Fragen zu Plänen
 
