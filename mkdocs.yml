@@ -42,6 +42,7 @@ nav:
     - Erster Bot: erste-schritte/erster-bot.md
     - "Dashboard-Übersicht": erste-schritte/dashboard-uebersicht.md
     - "Pläne & Preise": erste-schritte/plaene.md
+    - "Feature-Übersicht": erste-schritte/feature-uebersicht.md
   - Dashboard:
     - Twitch Bot:
       - Commands: dashboard/twitch/commands.md

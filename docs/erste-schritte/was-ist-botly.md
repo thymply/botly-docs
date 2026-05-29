@@ -24,6 +24,9 @@ Das Dashboard erreichst du über den Browser unter [botly.thymply.de](https://bo
 
 Das Dashboard ist kostenlos nutzbar (Free-Plan) und läuft komplett in der Cloud — du musst nichts installieren.
 
+!!! note "YouTube-Bot ab Pro"
+    Der YouTube-Chat-Bot ist ab dem Pro-Plan verfügbar. Im Free-Plan stehen Twitch- und Discord-Funktionen zur Verfügung. Details: [Feature-Übersicht](feature-uebersicht.md).
+
 ### 2. Chat-Bot (Cloud)
 
 Der Bot selbst läuft auf Botly-Servern und verbindet sich mit deinen Kanälen. Er reagiert auf Chat-Nachrichten, Events (Follows, Subs, Raids) und führt deine konfigurierten Aktionen aus. Du musst keinen eigenen Server betreiben.
