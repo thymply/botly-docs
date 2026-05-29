@@ -29,7 +29,7 @@ Unter **Allgemein** → **Abonnement** siehst du deinen aktuellen Plan, die Feat
 
 ### Desktop Lifetime kaufen
 
-1. Klicke auf **Lifetime kaufen** (89 EUR einmalig)
+1. Klicke auf **Lifetime kaufen** (99 EUR einmalig)
 2. Bezahle per Stripe
 3. Die Desktop App ist dauerhaft freigeschaltet
 
@@ -42,6 +42,9 @@ Unter **Allgemein** → **Abonnement** siehst du deinen aktuellen Plan, die Feat
 2. Wähle **Abonnement kündigen**
 3. Dein Plan bleibt bis zum Ende der bezahlten Laufzeit aktiv
 4. Danach: automatisch Free-Plan
+
+!!! tip "Kündigung ohne Login"
+    Du kannst dein Abo auch ohne Login kündigen — über den Kündigungsbutton [Verträge hier kündigen](https://botly.thymply.de/kuendigen). Du erhältst einen Bestätigungslink per E-Mail und kündigst in zwei Klicks.
 
 !!! note "Daten bleiben erhalten"
     Deine Einstellungen werden nicht gelöscht. Features über dem Free-Limit werden deaktiviert, nicht entfernt.

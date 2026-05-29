@@ -49,7 +49,7 @@ Einmalzahlung: **99€**
 
 | Plan | Preis | Beschreibung |
 |---|---|---|
-| KI Add-on | 4,99€/Monat (oder 49,90€/Jahr) | Eigener API-Key, zu Pro oder Premium |
+| KI Add-on | 4,99€/Monat (oder 49,90€/Jahr) | Eigener OpenAI/Anthropic-Key, buchbar zu Pro oder Premium |
 
 ## Häufige Fragen zu Plänen
 
@@ -60,7 +60,7 @@ Ja. Upgrades werden sofort aktiv, Downgrades zum Ende der aktuellen Abrechnungsp
 Dein Account bleibt bestehen und wechselt zum Free-Plan. Deine Commands, Counter und Einstellungen bleiben erhalten.
 
 **Brauche ich für YouTube einen eigenen API-Key?**
-Ja. YouTube API-Keys werden immer vom User bereitgestellt, nicht von Botly.
+Nur für CrossChat in der Desktop App brauchst du einen eigenen YouTube API-Key. Der Bot im Web-Dashboard funktioniert ohne eigenen Key.
 
 **Was ist im Desktop Lifetime enthalten?**
 Die Desktop App mit allen Desktop-Funktionen. Dashboard-Features (Commands, Counter, AutoMod etc.) erfordern zusätzlich einen Pro- oder Premium-Plan.

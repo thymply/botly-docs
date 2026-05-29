@@ -25,7 +25,7 @@ Unter **Twitch Bot** → **KI-Einstellungen** konfigurierst du den KI-Assistente
 - **Auto-Antwort** — KI antwortet auf bestimmte Trigger-Wörter
 
 !!! info "KI Add-on erforderlich"
-    Die KI-Funktionen erfordern das KI Add-on (4,99 EUR/Monat) oder einen Managed KI Plan.
+    Die KI-Funktionen erfordern das KI Add-on (4,99 EUR/Monat).
 
 ## Account
 

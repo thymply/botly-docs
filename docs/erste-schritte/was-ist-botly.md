@@ -91,13 +91,13 @@ Botly kombiniert zwei Ansätze:
 |---|---|---|---|
 | Commands, Timer, Counter | Ja | Ja | Ja |
 | AutoMod (alle Plattformen) | Ja | Ja | Ja |
-| Giveaways | — | Ja | Ja |
-| Auto-Clip | — | Ja | Ja |
+| Giveaways | Mit Limits | Ja | Ja |
+| Auto-Clip | — | — | Ja |
 | Editoren | — | Ja | Ja |
-| Desktop App | — | — | Ja |
+| Desktop App | — | CrossChat only | Ja |
 | Action-Chains | — | — | Ja |
 | Alert-Editor | — | — | Ja |
-| KI-Assistent | — | — | Ja |
+| KI-Assistent | — | KI Add-on | KI Add-on |
 
 [Alle Details zu den Plänen](plaene.md){ .md-button }
 

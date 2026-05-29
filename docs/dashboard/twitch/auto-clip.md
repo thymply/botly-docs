@@ -31,5 +31,5 @@ Auto-Clip erstellt automatisch Twitch-Clips wenn bestimmte Events eintreten — 
 !!! note "Twitch-Limit"
     Twitch erlaubt maximal einen Clip alle 60 Sekunden pro Kanal. Bei mehreren schnellen Events wird nur der erste geClippt.
 
-!!! info "Pro/Premium Feature"
-    Auto-Clip ist ab dem Pro-Plan verfügbar.
+!!! info "Premium Feature"
+    Auto-Clip ist ab dem Premium-Plan verfügbar.

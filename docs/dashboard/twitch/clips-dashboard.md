@@ -29,5 +29,5 @@ Nutze die Suchleiste um Clips nach Titel zu finden. Die Filter helfen dir bei de
 
 Klicke auf einen Clip um den Direktlink zu kopieren. Der Link führt direkt zur Twitch-Clip-Seite.
 
-!!! info "Pro/Premium Feature"
-    Das Clips Dashboard ist ab dem Pro-Plan verfügbar.
+!!! info "Premium Feature"
+    Das Clips Dashboard ist ab dem Premium-Plan verfügbar.

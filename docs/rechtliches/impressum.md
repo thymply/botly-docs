@@ -5,4 +5,6 @@ description: Impressum gemäß TMG.
 
 # Impressum
 
-_Platzhalter — wird mit den rechtlichen Angaben befüllt._
+Das vollständige und stets aktuelle Impressum findest du auf der Botly-Website:
+
+[botly.thymply.de/impressum](https://botly.thymply.de/impressum){ .md-button }
