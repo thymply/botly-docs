@@ -265,7 +265,7 @@ Verfügbar in der Ticket-Begrüßungsnachricht.
 
 ---
 
-## Discord Duplikat-Erkennung
+## Discord Spielvorschläge
 
 | Variable | Beschreibung | Beispiel-Ausgabe |
 |----------|-------------|-----------------|
