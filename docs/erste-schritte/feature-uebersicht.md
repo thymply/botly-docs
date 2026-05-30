@@ -26,9 +26,8 @@ Diese Seite zeigt, welches Feature in welchem Plan verfügbar ist. Aktuelle Prei
 | Basis-AutoMod (Spam/Links/Caps/Badwords) | ✅ | ✅ | ✅ |
 | Erweiterte AutoMod-Filter | ❌ | ✅ | ✅ |
 | Eskalationsstufen | ❌ | ✅ | ✅ |
-| Duplikate-Erkennung | ❌ | ✅ | ✅ |
-| Tickets | ❌ | ✅ | ✅ |
 | Spielvorschläge | ❌ | ✅ | ✅ |
+| Tickets | ❌ | ✅ | ✅ |
 | YouTube-Bot (gesamt) | ❌ | ✅ | ✅ |
 | YouTube-Giveaways | ❌ | ✅ | ✅ |
 | Auto-Clip | ❌ | ❌ | ✅ |

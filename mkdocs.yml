@@ -63,7 +63,7 @@ nav:
     - Discord Bot:
       - Welcome: dashboard/discord/welcome.md
       - AutoMod: dashboard/discord/automod.md
-      - Duplikate: dashboard/discord/duplikate.md
+      - "Spielvorschläge": dashboard/discord/duplikate.md
       - Temp-Voice: dashboard/discord/temp-voice.md
       - Reaction Roles: dashboard/discord/reaction-roles.md
       - "Live-Ankündigungen": dashboard/discord/live-ankuendigungen.md
