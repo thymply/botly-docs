@@ -9,7 +9,7 @@ Zeige einen Alert und steuere gleichzeitig eine OBS-Quelle wenn jemand deinem Ka
 
 ## Voraussetzungen
 
-- Premium-Plan (oder Desktop Lifetime)
+- Premium-Plan
 - Desktop App verbunden
 - OBS WebSocket aktiv
 

@@ -11,27 +11,36 @@ Diese Seite zeigt, welches Feature in welchem Plan verfügbar ist. Aktuelle Prei
 
 ## Feature×Tier-Matrix
 
+**Legende:** ✓(n) = verfügbar, bis zu n Stück · ✓(∞) = unbegrenzt · ✓ = enthalten · ✗ = nicht im Plan
+
 | Feature | Free | Pro | Premium |
 |---|---|---|---|
-| Commands (Twitch/YouTube) | unbegrenzt | ✅ | ✅ |
-| Counter | 1 | unbegrenzt | unbegrenzt |
-| Timer | 3 | unbegrenzt | unbegrenzt |
-| Giveaway (Twitch) | mit Limits | ✅ | ✅ |
-| Reaction-Role-Panels | 1 | unbegrenzt | unbegrenzt |
-| Mitspieler-Queue / Regulars | ✅ | ✅ | ✅ |
-| OBS-Regeln | 5 | unbegrenzt | unbegrenzt |
-| OBS Relay | ✅ | ✅ | ✅ |
-| Editoren | 1 | unbegrenzt | unbegrenzt |
-| Discord-Guilds | 1 | 3 | 5 |
-| Basis-AutoMod (Spam/Links/Caps/Badwords) | ✅ | ✅ | ✅ |
-| Erweiterte AutoMod-Filter | ❌ | ✅ | ✅ |
-| Eskalationsstufen | ❌ | ✅ | ✅ |
-| Spielvorschläge | ❌ | ✅ | ✅ |
-| Tickets | ❌ | ✅ | ✅ |
-| YouTube-Bot (gesamt) | ❌ | ✅ | ✅ |
-| YouTube-Giveaways | ❌ | ✅ | ✅ |
-| Auto-Clip | ❌ | ❌ | ✅ |
-| Clips Dashboard | ❌ | ❌ | ✅ |
+| Commands (Twitch/YouTube) | ✓(∞) | ✓(∞) | ✓(∞) |
+| Counter | ✓(1) | ✓(∞) | ✓(∞) |
+| Timer | ✓(3) | ✓(∞) | ✓(∞) |
+| Giveaway (Twitch) | ✓ | ✓ | ✓ |
+| Reaction-Role-Panels | ✓(1) | ✓(∞) | ✓(∞) |
+| Mitspieler-Queue | ✓ | ✓ | ✓ |
+| Regulars | ✓ | ✓ | ✓ |
+| Temp-Voice-Trigger | ✓(1) | ✓(∞) | ✓(∞) |
+| Twitch-Live-Ankündigung | ✓(1) | ✓(∞) | ✓(∞) |
+| YouTube-Live-Ankündigung | ✗ | ✓(∞) | ✓(∞) |
+| Editoren | ✓(1) | ✓(∞) | ✓(∞) |
+| Discord-Server | ✓(1) | ✓(3) | ✓(5) |
+| Basis-AutoMod (Spam/Links/Caps/Badwords) | ✓ | ✓ | ✓ |
+| Erweiterte AutoMod-Filter | ✗ | ✓ | ✓ |
+| Eskalationsstufen | ✗ | ✓ | ✓ |
+| Spielvorschläge | ✗ | ✓ | ✓ |
+| Tickets | ✗ | ✓ | ✓ |
+| Channel Points (Dashboard) ¹ | ✗ | ✓ | ✓ |
+| OBS-Regeln | ✗ | ✓(∞) | ✓(∞) |
+| OBS Relay | ✗ | ✓ | ✓ |
+| YouTube-Bot (gesamt) | ✗ | ✓ | ✓ |
+| YouTube-Giveaways | ✗ | ✓ | ✓ |
+| Auto-Clip | ✗ | ✗ | ✓ |
+| Clips Dashboard | ✗ | ✗ | ✓ |
+
+¹ erfordert Twitch-Affiliate/Partner
 
 !!! info "YouTube-Bot ist ein Pro-Feature"
     Der YouTube-Chat-Bot (inklusive YouTube-Giveaways) ist ab dem Pro-Plan verfügbar. Im Free-Plan stehen Twitch- und Discord-Funktionen zur Verfügung.
@@ -53,7 +62,7 @@ Lokale Windows-App für Funktionen, die direkt auf deinem Rechner laufen (CrossC
 | Plan | Desktop-App-Umfang |
 |---|---|
 | **Pro** | CrossChat, OBS-Steuerung, Status, Logs |
-| **Premium / Lifetime** | Alles — Alerts, Action-Chains, Medien, KI, Kanalpunkte, Donations |
+| **Premium** | Alles — Alert-Editor, Action Builder, Medien, KI, Kanalpunkt-Aktionen, Donations |
 
 ## Preise
 

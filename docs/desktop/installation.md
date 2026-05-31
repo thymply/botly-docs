@@ -10,7 +10,7 @@ Lade die Desktop App herunter, installiere sie und verbinde sie mit deinem Botly
 ## Voraussetzungen
 
 - **Windows 10/11** (64-bit)
-- **Botly Pro oder höher** (oder Desktop Lifetime)
+- **Botly Pro oder höher**
 - Eine aktive Internetverbindung
 
 !!! info "Kein Python nötig"

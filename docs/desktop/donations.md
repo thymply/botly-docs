@@ -69,4 +69,4 @@ Donations können als Trigger in [Action-Chains](action-chains.md) und als Alert
 | `{provider}` | Anbieter | `tipeeestream` |
 
 !!! info "Premium Feature"
-    Donation-Integration ist ab dem Premium-Plan verfügbar (oder mit Desktop Lifetime).
+    Donation-Integration ist ab dem Premium-Plan verfügbar.

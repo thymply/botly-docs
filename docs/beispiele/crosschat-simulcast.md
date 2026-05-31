@@ -9,7 +9,7 @@ Synchronisiere den Chat zwischen Twitch und YouTube damit alle Zuschauer miteina
 
 ## Voraussetzungen
 
-- Pro-Plan (oder Desktop Lifetime)
+- Pro-Plan
 - Desktop App verbunden
 - YouTube API Key eingerichtet
 

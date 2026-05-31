@@ -9,7 +9,7 @@ Eine Action-Chain die bei einer Kanalpunkte-Einlösung einen Sound spielt, eine 
 
 ## Voraussetzungen
 
-- Premium-Plan (oder Desktop Lifetime)
+- Premium-Plan
 - Twitch Channel Point Reward erstellt
 - OBS WebSocket aktiv
 

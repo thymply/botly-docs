@@ -27,15 +27,6 @@ Unter **Allgemein** → **Abonnement** siehst du deinen aktuellen Plan, die Feat
 3. Wähle den günstigeren Plan
 4. Der Downgrade wird am Ende der aktuellen Laufzeit aktiv
 
-### Desktop Lifetime kaufen
-
-1. Klicke auf **Lifetime kaufen** (99 EUR einmalig)
-2. Bezahle per Stripe
-3. Die Desktop App ist dauerhaft freigeschaltet
-
-!!! info "Lifetime + Abo"
-    Nach dem Lifetime-Kauf kannst du dein monatliches Abo behalten (für Dashboard-Features) oder kündigen (Desktop App funktioniert weiter). Lifetime + Premium kostet nur 5,99 EUR/Monat statt 8,99 EUR.
-
 ## Kündigung
 
 1. Klicke auf **Abo verwalten (Stripe)**

@@ -24,7 +24,7 @@ YouTube Viewer: "Danke für den Content!"
 
 ## Voraussetzungen
 
-- **Pro-Plan oder höher** (oder Desktop Lifetime)
+- **Pro-Plan oder höher**
 - **YouTube API Key** (wird immer vom User gestellt)
 - **Desktop App** läuft und ist verbunden
 

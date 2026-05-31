@@ -28,4 +28,4 @@ Die Einrichtung erfolgt in der [Desktop App unter Donations](../desktop/donation
 - **Mindestbetrag** — Aktionen nur ab bestimmtem Betrag
 
 !!! info "Premium Feature"
-    Donation-Integration ist ab dem Premium-Plan verfügbar (oder mit Desktop Lifetime).
+    Donation-Integration ist ab dem Premium-Plan verfügbar.

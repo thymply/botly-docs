@@ -9,7 +9,7 @@ Eine spektakuläre Vollbild-Animation wenn ein anderer Streamer dich raidet.
 
 ## Voraussetzungen
 
-- Premium-Plan (oder Desktop Lifetime)
+- Premium-Plan
 - OBS-Szene "Raid" mit Celebration-Animation vorbereitet
 
 ## Schritt für Schritt
