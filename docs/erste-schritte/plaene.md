@@ -14,7 +14,7 @@ Botly bietet flexible Pläne für jeden Streamer — vom Hobbystreamer bis zum V
 | Plan | Preis |
 |---|---|
 | Free | 0€ |
-| Pro | 4,99€/Monat |
+| Pro | 5,99€/Monat |
 | Premium | 8,99€/Monat |
 
 !!! tip "Welches Feature in welchem Plan?"
@@ -24,7 +24,7 @@ Botly bietet flexible Pläne für jeden Streamer — vom Hobbystreamer bis zum V
 
 | Plan | Monatlich | Jährlich | Ersparnis |
 |---|---|---|---|
-| Pro | 4,99€/Monat | 49,90€/Jahr (4,16€/Monat) | 9,98€ |
+| Pro | 5,99€/Monat | 59,90€/Jahr (4,99€/Monat) | 11,98€ |
 | Premium | 8,99€/Monat | 89,90€/Jahr (7,49€/Monat) | 17,98€ |
 
 ### KI Add-on
@@ -32,14 +32,6 @@ Botly bietet flexible Pläne für jeden Streamer — vom Hobbystreamer bis zum V
 | Plan | Preis | Beschreibung |
 |---|---|---|
 | KI Add-on | 4,99€/Monat (oder 49,90€/Jahr) | Eigener OpenAI/Anthropic-Key, buchbar zu Pro oder Premium |
-
-### Support
-
-| Plan | Support |
-|---|---|
-| Free | Community |
-| Pro | Priority |
-| Premium | Premium |
 
 ## Häufige Fragen zu Plänen
 

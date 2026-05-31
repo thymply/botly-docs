@@ -56,3 +56,13 @@
 [data-md-color-scheme="slate"] .md-footer-meta {
   background: #0a0c10 !important;
 }
+
+/* Feature-Matrix: Verfügbarkeits-Symbole */
+.j-yes {
+  color: #16a34a;
+  font-weight: 700;
+}
+.j-no {
+  color: #dc2626;
+  font-weight: 700;
+}

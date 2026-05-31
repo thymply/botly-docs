@@ -11,34 +11,39 @@ Diese Seite zeigt, welches Feature in welchem Plan verfügbar ist. Aktuelle Prei
 
 ## Feature×Tier-Matrix
 
-**Legende:** ✓(n) = verfügbar, bis zu n Stück · ✓(∞) = unbegrenzt · ✓ = enthalten · ✗ = nicht im Plan
+**Legende:**
+
+- <span class="j-yes">✓</span>(n) — verfügbar, bis zu n Stück
+- <span class="j-yes">✓</span>(∞) — unbegrenzt
+- <span class="j-yes">✓</span> — enthalten
+- <span class="j-no">✗</span> — nicht im Plan
 
 | Feature | Free | Pro | Premium |
 |---|---|---|---|
-| Commands (Twitch/YouTube) | ✓(∞) | ✓(∞) | ✓(∞) |
-| Counter | ✓(1) | ✓(∞) | ✓(∞) |
-| Timer | ✓(3) | ✓(∞) | ✓(∞) |
-| Giveaway (Twitch) | ✓ | ✓ | ✓ |
-| Reaction-Role-Panels | ✓(1) | ✓(∞) | ✓(∞) |
-| Mitspieler-Queue | ✓ | ✓ | ✓ |
-| Regulars | ✓ | ✓ | ✓ |
-| Temp-Voice-Trigger | ✓(1) | ✓(∞) | ✓(∞) |
-| Twitch-Live-Ankündigung | ✓(1) | ✓(∞) | ✓(∞) |
-| YouTube-Live-Ankündigung | ✗ | ✓(∞) | ✓(∞) |
-| Editoren | ✓(1) | ✓(∞) | ✓(∞) |
-| Discord-Server | ✓(1) | ✓(3) | ✓(5) |
-| Basis-AutoMod (Spam/Links/Caps/Badwords) | ✓ | ✓ | ✓ |
-| Erweiterte AutoMod-Filter | ✗ | ✓ | ✓ |
-| Eskalationsstufen | ✗ | ✓ | ✓ |
-| Spielvorschläge | ✗ | ✓ | ✓ |
-| Tickets | ✗ | ✓ | ✓ |
-| Channel Points (Dashboard) ¹ | ✗ | ✓ | ✓ |
-| OBS-Regeln | ✗ | ✓(∞) | ✓(∞) |
-| OBS Relay | ✗ | ✓ | ✓ |
-| YouTube-Bot (gesamt) | ✗ | ✓ | ✓ |
-| YouTube-Giveaways | ✗ | ✓ | ✓ |
-| Auto-Clip | ✗ | ✗ | ✓ |
-| Clips Dashboard | ✗ | ✗ | ✓ |
+| Commands (Twitch/YouTube) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
+| Counter | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
+| Timer | <span class="j-yes">✓</span>(3) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
+| Giveaway (Twitch) | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
+| Reaction-Role-Panels | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
+| Mitspieler-Queue | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
+| Regulars | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
+| Temp-Voice-Trigger | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
+| Twitch-Live-Ankündigung | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
+| YouTube-Live-Ankündigung | <span class="j-no">✗</span> | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
+| Editoren | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
+| Discord-Server | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(3) | <span class="j-yes">✓</span>(5) |
+| Basis-AutoMod (Spam/Links/Caps/Badwords) | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
+| Erweiterte AutoMod-Filter | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
+| Eskalationsstufen | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
+| Spielvorschläge | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
+| Tickets | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
+| Channel Points (Dashboard) ¹ | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
+| OBS-Regeln | <span class="j-no">✗</span> | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
+| OBS Relay | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
+| YouTube-Bot (gesamt) | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
+| YouTube-Giveaways | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
+| Auto-Clip | <span class="j-no">✗</span> | <span class="j-no">✗</span> | <span class="j-yes">✓</span> |
+| Clips Dashboard | <span class="j-no">✗</span> | <span class="j-no">✗</span> | <span class="j-yes">✓</span> |
 
 ¹ erfordert Twitch-Affiliate/Partner
 
