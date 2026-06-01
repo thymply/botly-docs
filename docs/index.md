@@ -51,3 +51,10 @@ Botly ist ein Multi-Plattform Streaming Bot, der Twitch, YouTube und Discord in 
 
 [Mehr erfahren](erste-schritte/was-ist-botly.md){ .md-button .md-button--primary }
 [Pläne & Preise](erste-schritte/plaene.md){ .md-button }
+
+---
+
+!!! tip "Stream-Assets für deinen Kanal"
+
+    Fertige Botly-Twitch-Panels — echte Markenschriften, PNG für den Twitch-Upload, SVG fürs Media-Kit. Direkt im Browser rendern und herunterladen:
+    [botly.thymply.de/assets](https://botly.thymply.de/assets){ target="_blank" rel="noopener" }
