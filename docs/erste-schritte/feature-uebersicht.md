@@ -29,7 +29,7 @@ Diese Seite zeigt, welches Feature in welchem Plan verfügbar ist. Aktuelle Prei
 | Regulars | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
 | Temp-Voice-Trigger | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
 | Twitch-Live-Ankündigung | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
-| YouTube-Live-Ankündigung | <span class="j-no">✗</span> | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
+| YouTube-Live-Ankündigung | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
 | Editoren | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
 | Discord-Server | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(3) | <span class="j-yes">✓</span>(5) |
 | Basis-AutoMod (Spam/Links/Caps/Badwords) | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
