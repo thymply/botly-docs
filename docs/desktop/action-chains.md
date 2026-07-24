@@ -5,6 +5,9 @@ description: Automatisiere deinen Stream mit WENN-PRÜFE-TUE Regeln.
 
 # Action-Chains
 
+!!! warning "Botly Desktop wird eingestellt"
+    Die Botly Desktop App wird eingestellt. Overlays laufen künftig direkt als Browser-Source im Dashboard — kein Download mehr nötig. Details im [Changelog](../changelog.md).
+
 Action-Chains sind das Herzstück der Desktop App. Mit ihnen erstellst du **Automatisierungen**, die auf Events reagieren und komplexe Abläufe ausführen — ohne eine Zeile Code zu schreiben.
 
 Das Prinzip: **WENN** etwas passiert → **PRÜFE** Bedingungen → **TUE** Aktionen.

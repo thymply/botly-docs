@@ -5,6 +5,9 @@ description: Lokale KI mit Ollama oder Cloud-KI mit OpenAI und Anthropic nutzen.
 
 # KI-Assistent
 
+!!! warning "Botly Desktop wird eingestellt"
+    Die Botly Desktop App wird eingestellt. Overlays laufen künftig direkt als Browser-Source im Dashboard — kein Download mehr nötig. Details im [Changelog](../changelog.md).
+
 Nutze KI für Chat-Moderation, automatische Antworten und kreative Interaktionen — lokal oder in der Cloud.
 
 ## Optionen

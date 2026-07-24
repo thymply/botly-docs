@@ -5,6 +5,9 @@ description: Mehrere OBS Browser Sources für verschiedene Alert-Typen nutzen.
 
 # Alert-Kanäle
 
+!!! warning "Botly Desktop wird eingestellt"
+    Die Botly Desktop App wird eingestellt. Overlays laufen künftig direkt als Browser-Source im Dashboard — kein Download mehr nötig. Details im [Changelog](../changelog.md).
+
 Trenne verschiedene Alert-Typen auf eigene OBS Browser Sources auf — für maximale Kontrolle über die Darstellung.
 
 ## Konzept

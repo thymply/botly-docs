@@ -5,6 +5,9 @@ description: Chat-Nachrichten zwischen Twitch und YouTube in Echtzeit synchronis
 
 # CrossChat Bridge
 
+!!! warning "Botly Desktop wird eingestellt"
+    Die Botly Desktop App wird eingestellt. Overlays laufen künftig direkt als Browser-Source im Dashboard — kein Download mehr nötig. Details im [Changelog](../changelog.md).
+
 Die CrossChat Bridge leitet Chat-Nachrichten zwischen Twitch und YouTube weiter — perfekt für Simulcast-Streamer.
 
 ## Konzept

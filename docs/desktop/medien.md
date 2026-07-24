@@ -5,6 +5,9 @@ description: Bilder, GIFs und Sounds für Alerts und Actions verwalten.
 
 # Medien-Bibliothek
 
+!!! warning "Botly Desktop wird eingestellt"
+    Die Botly Desktop App wird eingestellt. Overlays laufen künftig direkt als Browser-Source im Dashboard — kein Download mehr nötig. Details im [Changelog](../changelog.md).
+
 Verwalte alle Medien-Dateien an einem Ort — Bilder, GIFs und Sounds für deine Alerts und Action-Chains.
 
 ## Unterstützte Formate

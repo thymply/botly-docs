@@ -5,6 +5,9 @@ description: Stream-Alerts gestalten — Layout, Bilder, Text, Animationen.
 
 # Alert-Editor
 
+!!! warning "Botly Desktop wird eingestellt"
+    Die Botly Desktop App wird eingestellt. Overlays laufen künftig direkt als Browser-Source im Dashboard — kein Download mehr nötig. Details im [Changelog](../changelog.md).
+
 Gestalte deine Stream-Alerts genau so wie du sie haben willst — mit dem visuellen Editor in der Desktop App.
 
 ## Default Alerts

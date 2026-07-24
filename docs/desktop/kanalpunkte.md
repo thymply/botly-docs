@@ -5,6 +5,9 @@ description: Twitch Channel Points verwalten und mit Action-Chains automatisiere
 
 # Kanalpunkte
 
+!!! warning "Botly Desktop wird eingestellt"
+    Die Botly Desktop App wird eingestellt. Overlays laufen künftig direkt als Browser-Source im Dashboard — kein Download mehr nötig. Details im [Changelog](../changelog.md).
+
 Verwalte deine Twitch Channel Points direkt in Botly und löse bei Einlösungen automatisch Aktionen aus.
 
 ## Übersicht

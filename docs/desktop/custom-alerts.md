@@ -5,6 +5,9 @@ description: Eigene Alert-Designs für jeden Anlass — über die Standard-Alert
 
 # Custom Alerts
 
+!!! warning "Botly Desktop wird eingestellt"
+    Die Botly Desktop App wird eingestellt. Overlays laufen künftig direkt als Browser-Source im Dashboard — kein Download mehr nötig. Details im [Changelog](../changelog.md).
+
 Erstelle eigene Alerts die nicht an einen automatischen Trigger gebunden sind — für besondere Anlässe oder als Action-Chain Aktion.
 
 ## Wofür Custom Alerts?

@@ -5,6 +5,9 @@ description: Tipeeestream, StreamElements, Streamlabs und Ko-Fi in Botly einrich
 
 # Donations
 
+!!! warning "Botly Desktop wird eingestellt"
+    Die Botly Desktop App wird eingestellt. Overlays laufen künftig direkt als Browser-Source im Dashboard — kein Download mehr nötig. Details im [Changelog](../changelog.md).
+
 Verbinde deine Donation-Plattformen mit Botly und löse Alerts und Action-Chains bei Spenden aus.
 
 ## Übersicht

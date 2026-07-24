@@ -5,6 +5,9 @@ description: Download, Installation und Verbindung der Desktop App mit Botly.
 
 # Installation & Einrichtung
 
+!!! warning "Botly Desktop wird eingestellt"
+    Die Botly Desktop App wird eingestellt. Overlays laufen künftig direkt als Browser-Source im Dashboard — kein Download mehr nötig. Details im [Changelog](../changelog.md).
+
 Lade die Desktop App herunter, installiere sie und verbinde sie mit deinem Botly-Account.
 
 ## Voraussetzungen
