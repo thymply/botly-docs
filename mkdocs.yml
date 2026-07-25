@@ -34,6 +34,11 @@ theme:
     - content.tabs.link
   custom_dir: overrides
 
+# BL-360 Slice 2b-ii: CrossChat-Seiten unlisted (aus Nav raus, URLs bleiben erreichbar).
+not_in_nav: |
+  desktop/crosschat.md
+  beispiele/crosschat-simulcast.md
+
 nav:
   - Home: index.md
   - Erste Schritte:
@@ -81,7 +86,6 @@ nav:
     - "Alert-Kanäle": desktop/alert-kanaele.md
     - Action-Chains: desktop/action-chains.md
     - Medien: desktop/medien.md
-    - CrossChat: desktop/crosschat.md
     - Kanalpunkte: desktop/kanalpunkte.md
     - Donations: desktop/donations.md
     - KI-Assistent: desktop/ki.md
@@ -102,7 +106,6 @@ nav:
     - Follow-Alert: beispiele/follow-alert.md
     - Kanalpunkt-Action: beispiele/kanalpunkt-action.md
     - Raid-Celebration: beispiele/raid-celebration.md
-    - CrossChat Simulcast: beispiele/crosschat-simulcast.md
     - Giveaway: beispiele/giveaway-ankuendigung.md
   - FAQ: faq.md
   - Changelog: changelog.md
