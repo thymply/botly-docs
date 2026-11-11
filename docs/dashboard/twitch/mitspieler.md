@@ -31,6 +31,8 @@ Im Dashboard siehst du die aktuelle Liste mit Position, Name und Beitrittszeit. 
 - **Liste leeren** — Alle Einträge entfernen
 - Einzelne Spieler per Klick entfernen
 
+Tritt niemand mehr bei, löscht Botly die Liste deines Kanals automatisch, spätestens 7 Tage nach dem letzten Beitritt (Datenschutzerklärung, Abschnitt 8.3).
+
 <!-- Screenshot: Mitspieler-Liste im Dashboard -->
 
 ## Einstellungen
