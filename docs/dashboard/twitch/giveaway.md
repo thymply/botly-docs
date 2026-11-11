@@ -66,7 +66,7 @@ Wichtig ist das nur mit **Nur einmalige Gewinner**: Nach **Beenden** kann ein Ge
 
 ## Datenschutz
 
-Gewinner und ihre Chat-Nachrichten im Gewinner-Dialog werden nach spätestens 7 Tagen gelöscht. Nachrichten des Gewinners werden nur in den ersten 30 Minuten nach der Ziehung aufgezeichnet.
+Gewinner und ihre Chat-Nachrichten im Gewinner-Dialog werden nach spätestens 7 Tagen gelöscht, die Teilnehmerliste spätestens 7 Tage nach dem letzten Beitritt. Nachrichten des Gewinners werden nur in den ersten 30 Minuten nach der Ziehung aufgezeichnet.
 
 ??? question "Kann ich nach dem Beenden noch einen Gewinner ziehen?"
     Nein. Beenden löscht die Teilnehmerliste. Ziehe den Gewinner vorher, gern auch nach **Teilnahme schließen**.
