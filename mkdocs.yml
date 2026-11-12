@@ -118,6 +118,9 @@ plugins:
   - search:
       lang: de
   - tags
+  # BL-492: externe Assets (Google Fonts) beim Build herunterladen und selbst ausliefern,
+  # keine Verbindung zu Google beim Seitenaufruf (Tim F-20261112-9)
+  - privacy
 
 markdown_extensions:
   - admonition
