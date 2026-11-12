@@ -52,21 +52,21 @@ Bot:     Viewer1 nimmt teil!
 3. Schreibt der Gewinner im Chat, erscheint seine Nachricht im Dialog mit **„Hat geantwortet nach …“**. Antwortet er erst nach Ablauf, steht dort zusätzlich **zu spät**; antwortet er gar nicht, zeigt der Dialog **Keine Antwort**.
 4. Mit **Neu ziehen** ziehst du einen anderen Gewinner. Der vorige wird als „neu gezogen“ markiert und nicht noch einmal gezogen.
 
-## Beenden oder Zurücksetzen?
+## Abschließen oder Verwerfen?
 
 Beide Knöpfe löschen die Teilnehmer und bringen dich zurück zur Einrichtung, deine Einstellungen bleiben als Vorschlag erhalten. Der Unterschied liegt bei den **Gewinnern**:
 
-| | Beenden | Zurücksetzen |
+| | Abschließen | Verwerfen |
 |---|---|---|
 | Teilnehmer | gelöscht | gelöscht |
 | Gewinner | bleiben gespeichert | werden gelöscht |
 | Gedacht für | das normale Ende eines Giveaways | einen Fehlstart, z. B. Testziehung oder falsches Keyword |
 
-Wichtig ist das nur mit **Nur einmalige Gewinner**: Nach **Beenden** kann ein Gewinner in diesem Stream nicht noch einmal gewinnen, nach **Zurücksetzen** schon.
+Wichtig ist das nur mit **Nur einmalige Gewinner**: Nach **Abschließen** kann ein Gewinner in diesem Stream nicht noch einmal gewinnen, nach **Verwerfen** schon.
 
 ## Datenschutz
 
 Gewinner und ihre Chat-Nachrichten im Gewinner-Dialog werden nach spätestens 7 Tagen gelöscht, die Teilnehmerliste spätestens 7 Tage nach dem letzten Beitritt. Nachrichten des Gewinners werden nur in den ersten 30 Minuten nach der Ziehung aufgezeichnet.
 
-??? question "Kann ich nach dem Beenden noch einen Gewinner ziehen?"
-    Nein. Beenden löscht die Teilnehmerliste. Ziehe den Gewinner vorher, gern auch nach **Teilnahme schließen**.
+??? question "Kann ich nach dem Abschließen noch einen Gewinner ziehen?"
+    Nein. Abschließen löscht die Teilnehmerliste. Ziehe den Gewinner vorher, gern auch nach **Teilnahme schließen**.
