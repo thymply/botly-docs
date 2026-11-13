@@ -65,5 +65,5 @@ Die Einstellung "Nachricht löschen nach (Min., 0=nie)" steuert ob und wann die 
 
 Optional: Vergib automatisch eine Discord-Rolle wenn du live gehst. Mitglieder mit dieser Rolle werden z.B. im Chat hervorgehoben.
 
-!!! info "Free-Plan: 1 Live-Ankündigung je Server"
-    Im Free-Plan kannst du je Discord-Server eine Live-Ankündigung einrichten — Twitch und YouTube zählen zusammen. Ab Pro gibt es kein Limit.
+!!! info "Free-Plan: 1 Live-Ankündigung je Plattform und Server"
+    Im Free-Plan kannst du je Discord-Server eine Live-Ankündigung für Twitch und eine für YouTube einrichten — Twitch und YouTube zählen getrennt. Ab Pro gibt es kein Limit.

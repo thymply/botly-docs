@@ -62,7 +62,7 @@ Diese Features richtest du einmal ein; sie gelten für die Plattformen in der Sp
 | Discord-Server | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(3) | <span class="j-yes">✓</span>(5) |
 | Reaction-Role-Panels ⁵ | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
 | Temp-Voice-Trigger ⁵ | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
-| Live-Ankündigungen (Twitch und YouTube zusammen) ⁵ | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
+| Live-Ankündigungen (je Plattform) ⁵ | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
 | Eskalationsstufen | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
 | Spielvorschläge | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
 | Tickets | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
