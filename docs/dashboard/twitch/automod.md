@@ -9,12 +9,15 @@ AutoMod schützt deinen Chat automatisch vor Spam, unerwünschten Links, Caps-Lo
 
 ## Übersicht
 
-| Filter | Was wird erkannt | Standard |
+| Filter | Was wird erkannt | Standard (neue Konten) |
 |--------|-----------------|----------|
-| **Caps-Filter** | Zu viele Großbuchstaben | An |
+| **Caps-Filter** | Zu viele Großbuchstaben | Aus |
 | **Emote-Filter** | Emote-Spam | Aus |
-| **Spam-Filter** | Nachrichtenflut + Duplikate | An |
-| **Link-Filter** | URLs ohne Whitelist | An |
+| **Spam-Filter** | Nachrichtenflut + Duplikate | Aus |
+| **Link-Filter** | URLs ohne Whitelist | Aus |
+
+!!! note "Neue Konten starten mit allen Filtern aus"
+    Bei neuen Konten sind alle AutoMod-Filter ausgeschaltet, auch der Spam-Filter. Schalte die Filter, die du brauchst, einzeln ein. Bestehende Konten behalten ihre bisherigen Einstellungen.
 
 Alle Filter werden in einem 2-Spalten Grid angezeigt — alles gleichzeitig sichtbar, kein Aufklappen nötig.
 
@@ -93,6 +96,9 @@ Mods können mit `!permit @username` einem User temporär Links erlauben:
 Mod:     !permit @viewer42
 Bot:     @viewer42 darf jetzt für 2 Minuten Links posten.
 ```
+
+!!! note "!permit einschalten"
+    `!permit` ist ein Standard-Befehl. Wenn du den Link-Filter nutzt, schalte ihn unter **Commands** → **Default Commands** ein — bei neuen Konten ist er aus.
 
 !!! warning "Twitch AutoMod Konflikt"
     Twitch hat einen eigenen Link-Filter. Wenn dieser aktiv ist, funktioniert `!permit` nur für Botlys Filter — Twitch blockiert trotzdem. Wir empfehlen Twitchs Link-Filter zu deaktivieren und stattdessen Botlys Filter mit Whitelist und !permit zu nutzen.

@@ -38,7 +38,10 @@ Beim ersten Login erstellt Botly automatisch:
 - Eine **Free-Subscription** (kostenlos, sofort aktiv)
 - Die **Bot-Konfiguration** (leere Datenbank für deine Commands, Counter etc.)
 
-Du landest direkt im Dashboard und kannst sofort loslegen.
+Danach führt dich ein kurzer Assistent durch das Verbinden deiner Konten (Twitch, YouTube, Discord). Weitere Einrichtung nimmt er dir nicht ab — die machst du im Dashboard.
+
+!!! note "Neue Konten starten mit allem aus"
+    AutoMod-Filter (auch der Spam-Filter), die Standard-Befehle (`!commands`, `!title`, `!game`, `!uptime`, `!followage`, `!accountage`, `!watchtime`, `!permit`) und die Mitspieler-Liste (`!joinlist`) sind bei neuen Konten ausgeschaltet. Du schaltest sie im Dashboard einzeln ein: unter **AutoMod**, **Commands** → **Default Commands** und **Mitspieler**.
 
 ## Weitere Plattformen verknüpfen
 

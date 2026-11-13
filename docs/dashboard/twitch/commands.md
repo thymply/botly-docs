@@ -13,7 +13,7 @@ Die Commands-Seite hat drei Tabs:
 
 - **Custom Commands** — Deine eigenen Befehle mit `!` Prefix
 - **Keywords** — Reagieren auf Text ohne `!` (Content-Match)
-- **Default Commands** — System-Befehle (`!commands`, `!title`, `!game`, `!uptime`, `!permit`)
+- **Default Commands** — eingebaute Befehle (`!commands`, `!title`, `!game`, `!uptime`, `!followage`, `!accountage`, `!watchtime`, `!permit`). Bei neuen Konten sind sie alle aus; du schaltest jeden einzeln ein.
 
 ## Custom Command erstellen
 

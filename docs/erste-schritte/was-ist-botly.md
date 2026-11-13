@@ -64,7 +64,7 @@ Egal ob du gerade anfängst oder schon eine Community hast — Botly wächst mit
 | | Free | Pro | Premium |
 |---|---|---|---|
 | Commands | Ja | Ja | Ja |
-| Timer, Counter | Mit Limits | Ja | Ja |
+| Countdowns, Counter | Mit Limits | Ja | Ja |
 | AutoMod | Basis-Filter | Ja | Ja |
 | Giveaways | Nur Twitch | Ja | Ja |
 | Editoren | 1 | Ja | Ja |

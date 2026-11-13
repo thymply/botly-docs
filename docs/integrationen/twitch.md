@@ -45,3 +45,6 @@ Du kannst Botly als **Bot-Account** oder als **Streamer-Account** nutzen:
 | Chat-Name | Separater Bot-Name | Dein eigener Name |
 | Einrichtung | Zwei OAuth-Verbindungen | Eine OAuth-Verbindung |
 | Empfehlung | Für professionelles Setup | Für den Anfang |
+
+!!! info "Bot-Account ab Pro"
+    Einen eigenen Bot-Account oder den Botly-Bot (myBotly) kannst du ab dem Pro-Plan verbinden. Im Free-Plan nutzt du Botly mit deinem Streamer-Account.

@@ -65,7 +65,7 @@ Antworten auf die häufigsten Fragen und Lösungen für bekannte Probleme.
 ??? question "Gibt es ein Limit für Commands?"
     **Nein!** Commands sind in jedem Plan unbegrenzt — auch im Free-Plan.
 
-    Limits gelten nur für: Timer (3 im Free), Counter (1 im Free), Reaction Role Panels (1 im Free) und Editoren (1 im Free).
+    Auch Auto-Timer an Commands sind unbegrenzt. Limits im Free-Plan gelten für: Countdowns (3), Counter (1), Editoren (1, alle Plattformen zusammen), Discord-Server (1) sowie je Discord-Server Reaction Role Panels (1), Temp-Voice-Trigger (1) und Live-Ankündigungen (1, Twitch und YouTube zusammen). Details: [Feature-Übersicht](erste-schritte/feature-uebersicht.md).
 
 ## Werden meine Daten gelöscht wenn ich kündige?
 

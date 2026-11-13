@@ -27,22 +27,25 @@ Diese Features richtest du einmal ein; sie gelten für die Plattformen in der Sp
 |---|---|---|---|---|
 | Commands (inkl. Auto-Timer) | Twitch, YouTube | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
 | Counter | Twitch, YouTube | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
-| Countdowns | Twitch, YouTube | <span class="j-yes">✓</span>(3) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
 | Giveaway ¹ | Twitch, YouTube | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
 | Mitspieler-Queue | Twitch, YouTube | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
 | Regulars | Twitch, YouTube | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
-| Editoren | Twitch, YouTube | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
-| Basis-AutoMod (Spam/Links/Caps/Badwords) | Twitch, YouTube, Discord | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
+| Editoren ² | Twitch, YouTube, Discord | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
+| Basis-AutoMod ³ | Twitch, YouTube, Discord | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
 | Erweiterte AutoMod-Filter | Twitch, YouTube | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
-| Overlays (Browser-Source) ² | Twitch, YouTube | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
+| Overlays (Browser-Source) ⁴ | Twitch, YouTube | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
 
 ¹ Im Free-Plan nur auf Twitch; YouTube-Giveaways ab Pro.<br>
-² Alert-Typen Twitch: Neuer Follower, Neues Abo, Sub-Geschenk, Cheer, Raid, Kanalpunkte. Alert-Typen YouTube: Superchat, Super-Sticker, Neues Mitglied.
+² Das Limit gilt je Konto und zählt alle Plattformen zusammen.<br>
+³ Twitch und YouTube: Spam, Links, Caps, Badwords. Discord: Spam, Links, Einladungen, Badwords.<br>
+⁴ Alert-Typen Twitch: Neuer Follower, Neues Abo, Sub-Geschenk, Cheer, Raid, Kanalpunkte. Alert-Typen YouTube: Superchat, Super-Sticker, Neues Mitglied.
 
 ## Twitch
 
 | Feature | Free | Pro | Premium |
 |---|---|---|---|
+| Countdowns | <span class="j-yes">✓</span>(3) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
+| Eigener Bot-Account / myBotly | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
 | Auto-Clip | <span class="j-no">✗</span> | <span class="j-no">✗</span> | <span class="j-yes">✓</span> |
 | Clips Dashboard | <span class="j-no">✗</span> | <span class="j-no">✗</span> | <span class="j-yes">✓</span> |
 
@@ -57,14 +60,14 @@ Diese Features richtest du einmal ein; sie gelten für die Plattformen in der Sp
 | Feature | Free | Pro | Premium |
 |---|---|---|---|
 | Discord-Server | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(3) | <span class="j-yes">✓</span>(5) |
-| Reaction-Role-Panels ³ | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
-| Temp-Voice-Trigger ³ | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
-| Live-Ankündigungen (Twitch und YouTube zusammen) ³ | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
+| Reaction-Role-Panels ⁵ | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
+| Temp-Voice-Trigger ⁵ | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
+| Live-Ankündigungen (Twitch und YouTube zusammen) ⁵ | <span class="j-yes">✓</span>(1) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
 | Eskalationsstufen | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
 | Spielvorschläge | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
 | Tickets | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
 
-³ Limit je Discord-Server.
+⁵ Limit je Discord-Server.
 
 ## KI Add-on
 

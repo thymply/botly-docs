@@ -11,6 +11,9 @@ Lass deine Zuschauer sich per Chat-Befehl in eine Warteschlange eintragen und zi
 
 Die Mitspieler-Liste ist eine Warteschlange. Viewer treten bei, du pickst die nächsten Spieler — first come, first served.
 
+!!! note "Bei neuen Konten aus"
+    Bei neuen Konten ist die Mitspieler-Liste ausgeschaltet; `!joinlist` und die anderen Befehle reagieren erst, wenn du sie im Dashboard einschaltest. Bestehende Konten behalten ihre Einstellung.
+
 ## Chat-Befehle
 
 | Befehl | Wer | Beschreibung |
