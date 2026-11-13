@@ -5,7 +5,7 @@ description: Automatisch Twitch-Clips erstellen bei bestimmten Events.
 
 # Auto-Clip
 
-Auto-Clip erstellt automatisch Twitch-Clips wenn bestimmte Events eintreten — Raids, große Donations oder auf Chat-Befehl.
+Auto-Clip erstellt automatisch Twitch-Clips wenn bestimmte Events eintreten — zum Beispiel bei Raids oder auf Chat-Befehl.
 
 ## Einrichtung
 
@@ -18,7 +18,6 @@ Auto-Clip erstellt automatisch Twitch-Clips wenn bestimmte Events eintreten — 
 | Event | Beschreibung |
 |-------|-------------|
 | **Raid** | Bei jedem eingehenden Raid |
-| **Große Donation** | Ab einem konfigurierbaren Betrag |
 | **Chat-Befehl** | Per `!clip` im Chat |
 
 ## Einstellungen

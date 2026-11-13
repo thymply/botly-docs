@@ -17,8 +17,8 @@ Die Sprache wird als Cookie gespeichert und bleibt beim nächsten Besuch erhalte
 
 Unter **Twitch Bot** → **KI-Einstellungen** konfigurierst du den KI-Assistenten:
 
-- **Anbieter** — OpenAI, Anthropic oder Ollama (lokal)
-- **Modell** — z.B. GPT-4, Claude 3, Llama 3
+- **Anbieter** — OpenAI oder Anthropic
+- **Modell** — z.B. GPT-4, Claude 3
 - **API Key** — Dein eigener Key (bei KI Add-on)
 - **System-Prompt** — Wie sich die KI im Chat verhalten soll
 - **Moderation** — KI-basierte Nachrichtenbewertung

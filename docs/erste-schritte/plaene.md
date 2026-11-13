@@ -41,9 +41,6 @@ Ja. Upgrades werden sofort aktiv, Downgrades zum Ende der aktuellen Abrechnungsp
 **Was passiert wenn ich kündige?**
 Dein Account bleibt bestehen und wechselt zum Free-Plan. Deine Commands, Counter und Einstellungen bleiben erhalten.
 
-**Brauche ich für YouTube einen eigenen API-Key?**
-Nur für CrossChat in der Desktop App brauchst du einen eigenen YouTube API-Key. Der Bot im Web-Dashboard funktioniert ohne eigenen Key.
-
 ## Zahlungsmethoden
 
 Kreditkarte, Debitkarte, SEPA-Lastschrift, Google Pay, Apple Pay (via Stripe).

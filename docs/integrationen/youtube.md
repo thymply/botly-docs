@@ -36,15 +36,3 @@ Bei 5 Streamern: ca. **750 Units/Tag** — weit unter dem Limit.
 
 !!! warning "Keine Search API"
     Botly nutzt **nie** die YouTube `search` API (100 Units pro Request). Alle Features basieren auf PubSubHubbub + `videos.list` (1 Unit).
-
-## YouTube API Key
-
-Für CrossChat und einige Features brauchst du einen **YouTube API Key**:
-
-1. Gehe zur [Google Cloud Console](https://console.cloud.google.com)
-2. Erstelle ein Projekt
-3. Aktiviere die **YouTube Data API v3**
-4. Erstelle einen **API Key**
-5. Trage ihn in der Desktop App ein
-
-Eine ausführliche Anleitung findest du als PDF im Dashboard unter **Tools**.

@@ -42,7 +42,7 @@ Der Hauptbereich zeigt die Einstellungen des ausgewählten Features. Hier passie
 Botly verwaltet drei Plattformen in einem Dashboard:
 
 1. **Discord** — Server-Verwaltung, Welcome, AutoMod, Reaction Roles
-2. **Twitch Bot** — Commands, Counter, AutoMod, Giveaways, OBS
+2. **Twitch Bot** — Commands, Counter, AutoMod, Giveaways, Alerts
 3. **YouTube Bot** — Live-Erkennung, AutoMod, geteilte Commands
 
 Zum Wechseln klicke auf den **Plattform-Badge** im Header oder nutze die Bot-Auswahl auf der Startseite.
