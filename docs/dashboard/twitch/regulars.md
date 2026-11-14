@@ -5,15 +5,17 @@ description: Stammzuschauer verwalten und mit besonderen Rechten belohnen.
 
 # Regulars
 
-Regulars sind deine treuesten Zuschauer. Gib ihnen einen besonderen Status — zwischen "Alle" und "Subscriber" in der Berechtigungsstufe.
+Regulars sind deine treuesten Zuschauer. Gib ihnen einen besonderen Status — zwischen "VIP" und "Moderator" in der Berechtigungsstufe.
 
 ## Was sind Regulars?
 
-Regulars ist ein **Botly-eigenes User-Level**. Twitch kennt kein "Regular" nativ — es ist eine Botly-Funktion die du selbst verwaltest. Regulars stehen in der Hierarchie über "Everyone" aber unter "Subscriber":
+Regulars ist ein **Botly-eigenes User-Level**. Twitch kennt kein "Regular" nativ — es ist eine Botly-Funktion die du selbst verwaltest. Regulars stehen in der Hierarchie über "VIP" und unter "Moderator":
 
 ```
-Everyone < Regular < Subscriber < VIP < Mod < Broadcaster
+Everyone < Subscriber < VIP < Regular < Mod < Broadcaster
 ```
+
+Ein Command mit User-Level "Regular" können also nur Regulars, Moderatoren und du selbst nutzen. Subscriber und VIPs, die nicht auf deiner Regulars-Liste stehen, nicht.
 
 ## Vorteile für Regulars
 
