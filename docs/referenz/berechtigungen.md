@@ -46,7 +46,7 @@ Beim Einladen des Bots wirst du nach folgenden Berechtigungen gefragt:
 
 ## Twitch
 
-### Bot-Account Scopes
+### Bot-Konto Scopes
 
 Wenn du einen Twitch-Account als Bot verbindest, fordert Botly folgende Berechtigungen an:
 
@@ -60,7 +60,7 @@ Wenn du einen Twitch-Account als Bot verbindest, fordert Botly folgende Berechti
 | `moderator:read:chatters` | Viewer-Liste | Bot kann die aktuelle Chatter-Liste lesen |
 
 !!! info "Bot als Moderator"
-    Der Bot-Account muss in deinem Twitch-Kanal als **Moderator** eingetragen sein (`/mod botly` im Chat), damit die Moderations-Scopes wirksam werden.
+    Das Bot-Konto muss in deinem Twitch-Kanal als **Moderator** eingetragen sein (`/mod botly` im Chat), damit die Moderations-Scopes wirksam werden.
 
 ---
 

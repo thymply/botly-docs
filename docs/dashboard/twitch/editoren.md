@@ -28,7 +28,7 @@ Editoren können:
 
 Editoren können **nicht**:
 
-- Den Bot-Account ändern oder entfernen
+- Das Bot-Konto ändern oder entfernen
 - Andere Editoren einladen oder entfernen
 - Das Abonnement verwalten
 - Den Account löschen

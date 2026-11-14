@@ -45,7 +45,7 @@ Diese Features richtest du einmal ein; sie gelten für die Plattformen in der Sp
 | Feature | Free | Pro | Premium |
 |---|---|---|---|
 | Countdowns | <span class="j-yes">✓</span>(3) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
-| Eigener Bot-Account / myBotly | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
+| Eigenes Bot-Konto / myBotly | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
 | Auto-Clip | <span class="j-no">✗</span> | <span class="j-no">✗</span> | <span class="j-yes">✓</span> |
 | Clips Dashboard | <span class="j-no">✗</span> | <span class="j-no">✗</span> | <span class="j-yes">✓</span> |
 

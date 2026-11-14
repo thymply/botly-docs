@@ -38,13 +38,13 @@ EventSub liefert Events in unter 1 Sekunde — schneller als das alte PubSub-Sys
 
 ## Zwei Account-Typen
 
-Du kannst Botly als **Bot-Account** oder als **Streamer-Account** nutzen:
+Du kannst Botly mit einem **Bot-Konto** oder mit deinem **Streamer-Account** nutzen:
 
-| | Bot-Account | Streamer-Account |
+| | Bot-Konto | Streamer-Account |
 |---|---|---|
 | Chat-Name | Separater Bot-Name | Dein eigener Name |
 | Einrichtung | Zwei OAuth-Verbindungen | Eine OAuth-Verbindung |
 | Empfehlung | Für professionelles Setup | Für den Anfang |
 
-!!! info "Bot-Account ab Pro"
-    Einen eigenen Bot-Account oder den Botly-Bot (myBotly) kannst du ab dem Pro-Plan verbinden. Im Free-Plan nutzt du Botly mit deinem Streamer-Account.
+!!! info "Bot-Konto ab Pro"
+    Ein eigenes Bot-Konto oder den Botly-Bot (myBotly) kannst du ab dem Pro-Plan im Bereich **Bot-Konto** einrichten. Im Free-Plan nutzt du Botly mit deinem Streamer-Account.

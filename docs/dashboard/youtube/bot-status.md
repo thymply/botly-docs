@@ -1,9 +1,9 @@
 ---
-title: Bot-Status & Live-Erkennung
-description: YouTube Bot steuern und Livestreams automatisch erkennen lassen.
+title: Bot-Konto & Live-Erkennung
+description: Bot-Konto des YouTube Bots verwalten und Livestreams automatisch erkennen lassen.
 ---
 
-# Bot-Status & Live-Erkennung
+# Bot-Konto & Live-Erkennung
 
 Der YouTube Bot erkennt automatisch wenn du live gehst und aktiviert sich — ohne dass du etwas tun musst.
 
@@ -25,15 +25,18 @@ Botly nutzt **PubSubHubbub** (Googles Push-Dienst) um sofort zu erfahren wenn du
 !!! info "Quota-sparend"
     PubSubHubbub ist kostenlos und verbraucht kein YouTube API Quota. Botly nutzt die YouTube API nur für einmalige Abfragen (1 Unit pro Check), nie für Polling.
 
-## Bot-Status Übersicht
+## Bot-Konto
 
-Die Status-Seite zeigt:
+Im Bereich **Bot-Konto** (**YouTube Bot** → **Bot-Konto**) legst du fest, über welchen Account der Bot im Live-Chat schreibt:
 
-| Anzeige | Bedeutung |
+| Situation | Was du siehst |
 |---------|-----------|
-| **Grüner Punkt** | Bot ist aktiv und verbunden |
-| **Grauer Punkt** | Bot ist offline oder nicht konfiguriert |
-| **Live-Badge** | Du bist gerade live auf YouTube |
+| **Kein Bot-Konto verbunden** | Der Bot schreibt über deinen Streamer-Account. Mit **Bot-Konto verknüpfen** verbindest du einen separaten YouTube-Account als Bot |
+| **Bot-Konto verbunden** | Name und Bild des Bot-Kontos. Mit **Trennen** löst du die Verbindung wieder |
+| **Kein YouTube-Kanal verbunden** | Hinweis, zuerst einen YouTube-Kanal zu verbinden |
+
+!!! info "Verbindung neu herstellen"
+    Ist die Verbindung zu deinem Bot-Konto nicht mehr gültig, zeigt das Dashboard oben einen Hinweis mit dem Knopf **Neu verbinden**. Bis du das Bot-Konto neu verbindest, schreibt Botly mit deinem Kanal.
 
 ## Geteilte Features
 

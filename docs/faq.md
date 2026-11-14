@@ -14,14 +14,14 @@ Antworten auf die häufigsten Fragen und Lösungen für bekannte Probleme.
 ??? question "Der Bot ist online, antwortet aber nicht auf Commands"
     **Prüfe diese Punkte:**
 
-    1. **Bot-Status** — Ist der grüne Punkt sichtbar? Falls grau: Bot-Account neu verbinden
+    1. **Verbindung** — Zeigt das Dashboard oben den Hinweis **Verbindung neu herstellen**? Dann klicke dort auf **Neu verbinden**
     2. **Command aktiviert?** — Toggle in der Command-Liste prüfen
     3. **Cooldown** — Warte die eingestellten Sekunden ab und versuche es erneut
     4. **Richtiger Kanal** — Ist der Bot im richtigen Twitch-Kanal?
     5. **User-Level** — Hat der testende User die nötige Berechtigung?
     6. **Plattform** — Ist der Command auf der richtigen Plattform aktiv (Twitch/YouTube)?
 
-    Falls nichts hilft: Gehe zu **Twitch Bot** → **Bot-Status** und klicke auf **Neu verbinden**.
+    Falls nichts hilft: Prüfe unter **Twitch Bot** → **Bot-Konto**, welcher Bot in deinem Chat schreibt. Nutzt du **myBotly**, muss der Account in deinem Kanal Moderator sein (`/mod mybotly`), sonst greifen Follower- oder Sub-only-Sperren.
 
 ## Alerts werden nicht angezeigt
 

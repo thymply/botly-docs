@@ -27,7 +27,7 @@ Die Commands-Seite hat drei Tabs:
 | **Antwort** | Bot-Antwort mit Variablen | `Unser Discord: discord.gg/...` |
 | **Cooldown** | Sekunden zwischen Auslösungen | `10` |
 | **User-Level** | Wer darf den Befehl nutzen | Alle / Sub / VIP / Mod |
-| **Senden als** | Bot oder Streamer Account | Bot |
+| **Senden als** | Wer die Antwort schreibt: **Standard** (wie im Bereich **Bot-Konto** eingestellt), **Streamer**, **Eigener Bot** oder **myBotly** | Standard |
 | **Plattform** | Twitch, YouTube oder Beide | Beide |
 
 4. Klicke auf **Speichern**

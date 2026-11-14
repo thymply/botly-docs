@@ -58,7 +58,7 @@ nav:
       - Editoren: dashboard/twitch/editoren.md
       - Bot-Import: dashboard/twitch/import.md
     - YouTube Bot:
-      - Bot-Status: dashboard/youtube/bot-status.md
+      - Bot-Konto: dashboard/youtube/bot-status.md
       - AutoMod: dashboard/youtube/automod.md
     - Discord Bot:
       - Welcome: dashboard/discord/welcome.md

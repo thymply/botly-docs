@@ -15,13 +15,13 @@ Von der Anmeldung bis zum ersten Chat-Befehl — in unter 5 Minuten.
 ## Schritt 1: Twitch Bot verbinden
 
 1. Wähle im Dashboard **Twitch Bot**
-2. Klicke auf **Bot-Account verbinden**
-3. Autorisiere den Bot-Account auf Twitch
+2. Verknüpfe deinen Twitch-Kanal (Streamer-Account), falls noch nicht geschehen
+3. Öffne den Bereich **Bot-Konto** — dort legst du fest, wer im Chat schreibt
 
-!!! tip "Bot vs. Streamer Account"
-    Du kannst wählen ob der Bot als **separater Account** oder als **dein eigener Account** im Chat schreibt. Für den Anfang reicht dein eigener Account — einen separaten Bot-Account kannst du später einrichten.
+!!! tip "Wer schreibt im Chat?"
+    Im Free-Plan schreibt der Bot über deinen Streamer-Account. Ab Pro wählst du im Bereich **Bot-Konto** zwischen **Kein Bot** (der Bot schreibt über deinen Streamer-Account), **Eigener Bot** (ein separater Twitch-Account, den du über **Bot-Konto verbinden** verknüpfst) und **myBotly** (der geteilte Botly-Account). Für den Anfang reicht dein Streamer-Account — ein eigenes Bot-Konto kannst du später einrichten.
 
-<!-- Screenshot: Bot-Account Seite -->
+<!-- Screenshot: Bot-Konto Seite -->
 
 ## Schritt 2: Ersten Command erstellen
 
@@ -47,7 +47,7 @@ Bot:     Unser Discord: discord.gg/dein-link
 
 Falls nicht:
 
-1. Prüfe ob der Bot-Account verbunden ist (grüner Punkt unter **Bot-Status**)
+1. Prüfe unter **Twitch Bot** → **Bot-Konto**, wer im Chat schreibt. Zeigt das Dashboard oben den Hinweis **Verbindung neu herstellen**, klicke dort auf **Neu verbinden**
 2. Prüfe ob der Command aktiviert ist (Toggle in der Command-Liste)
 3. Warte den Cooldown ab (Standard: 5 Sekunden)
 
