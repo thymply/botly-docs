@@ -26,7 +26,7 @@ Antworten auf die häufigsten Fragen und Lösungen für bekannte Probleme.
 ## Alerts werden nicht angezeigt
 
 ??? question "Alerts werden ausgelöst, aber im Stream nicht sichtbar"
-    Alerts laufen über **Overlays** (ab Pro): einen Overlay-Link, den du als Browser-Source in deine Streaming-Software einfügst.
+    Alerts laufen über **Overlays** (ab Pro): einen Overlay-Link, den du als Browser-Source in deine Streaming-Software einfügst. Die ausführliche Anleitung findest du unter [Overlays & Alerts](dashboard/overlays-alerts.md).
 
     **Prüfe diese Punkte:**
 

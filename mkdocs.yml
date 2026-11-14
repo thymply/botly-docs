@@ -71,6 +71,7 @@ nav:
       - Bot-Nickname: dashboard/discord/bot-nickname.md
     - Audit Log: dashboard/audit-log.md
     - Geteilte Features: dashboard/geteilte-features.md
+    - "Overlays & Alerts": dashboard/overlays-alerts.md
     - Billing: dashboard/billing.md
     - Einstellungen: dashboard/einstellungen.md
   - Referenz:
