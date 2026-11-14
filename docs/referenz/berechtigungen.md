@@ -60,7 +60,7 @@ Wenn du einen Twitch-Account als Bot verbindest, fordert Botly folgende Berechti
 | `moderator:read:chatters` | Viewer-Liste | Bot kann die aktuelle Chatter-Liste lesen |
 
 !!! info "Bot als Moderator"
-    Das Bot-Konto muss in deinem Twitch-Kanal als **Moderator** eingetragen sein (`/mod botly` im Chat), damit die Moderations-Scopes wirksam werden.
+    Das Bot-Konto muss in deinem Twitch-Kanal als **Moderator** eingetragen sein (`/mod <Name des Bot-Kontos>` im Chat), damit die Moderations-Scopes wirksam werden. Den Namen deines eigenen Bots siehst du unter **Twitch Bot** → **Bot-Konto**; für myBotly lautet der Befehl `/mod mybotly`.
 
 ---
 
