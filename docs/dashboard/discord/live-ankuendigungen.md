@@ -56,7 +56,7 @@ Wenn die erste Plattform live geht, wartet Botly die eingestellte Verzögerung a
 
 Im Dialog eines Twitch-Streamers kannst du unter **YouTube-Kanal (optional)** den passenden YouTube-Kanal eintragen. Botly verknüpft beide und legt die YouTube-Ankündigung automatisch an (im Free-Plan nur, solange das Limit von einer YouTube-Ankündigung je Server frei ist).
 
-Solange die Verknüpfung besteht, lässt sich die verknüpfte YouTube-Ankündigung nicht löschen. Botly zeigt dann einen Hinweis mit dem Namen des Twitch-Streamers.
+Löschst du eine verknüpfte YouTube-Ankündigung, fragt Botly nach und nennt den Twitch-Streamer. Mit **Lösen und löschen** wird die Verknüpfung gelöst und die YouTube-Ankündigung gelöscht. Die Twitch-Ankündigung bleibt bestehen.
 
 ### Verknüpfung lösen
 
