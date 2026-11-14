@@ -28,6 +28,9 @@ Bei geteilten Features findest du einen **Platform-Selector** mit drei Optionen:
 | **Regulars** | Ja (pro Regular) | Gleicher Status auf beiden Plattformen |
 | **AutoMod** | Getrennt | Separate Einstellungen pro Plattform |
 
+!!! info "Countdowns nur auf Twitch"
+    Countdowns sind kein geteiltes Feature: Sie führt nur der Twitch-Bot aus. Du findest sie in der Twitch-Seitenleiste unter **Streaming**.
+
 !!! info "AutoMod ist getrennt"
     AutoMod-Einstellungen werden für Twitch und YouTube **separat** gespeichert. Das ist sinnvoll weil die Plattformen unterschiedliche Moderations-Funktionen haben (z.B. kein Timeout auf YouTube).
 

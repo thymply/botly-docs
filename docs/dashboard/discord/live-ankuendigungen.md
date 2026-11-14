@@ -52,6 +52,20 @@ Wenn die erste Plattform live geht, wartet Botly die eingestellte Verzögerung a
 !!! info "Nachricht wird editiert"
     Wenn die erste Plattform bereits eine Nachricht gesendet hat und die zweite Plattform nachzieht, wird die bestehende Nachricht zu einer kombinierten Nachricht **editiert** — kein Doppelpost.
 
+### YouTube-Kanal verknüpfen
+
+Im Dialog eines Twitch-Streamers kannst du unter **YouTube-Kanal (optional)** den passenden YouTube-Kanal eintragen. Botly verknüpft beide und legt die YouTube-Ankündigung automatisch an (im Free-Plan nur, solange das Limit von einer YouTube-Ankündigung je Server frei ist).
+
+Solange die Verknüpfung besteht, lässt sich die verknüpfte YouTube-Ankündigung nicht löschen. Botly zeigt dann einen Hinweis mit dem Namen des Twitch-Streamers.
+
+### Verknüpfung lösen
+
+1. Öffne den Twitch-Streamer mit **Bearbeiten**
+2. Klicke neben dem YouTube-Kanal auf **Verknüpfung lösen**
+3. **Speichern**
+
+Die YouTube-Ankündigung bleibt als eigener Eintrag bestehen und läuft weiter. Danach kannst du sie wie jede andere YouTube-Ankündigung bearbeiten oder löschen.
+
 ## Offline-Verhalten
 
 Wenn der Stream endet:
