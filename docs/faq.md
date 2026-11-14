@@ -30,14 +30,17 @@ Antworten auf die häufigsten Fragen und Lösungen für bekannte Probleme.
 
     **Prüfe diese Punkte:**
 
-    1. **Overlay-Link erstellt?** — Unter **Tools** → **Overlays** erzeugst du den Link
+    1. **Overlay-Link erstellt?** — Unter **Tools** → **Overlays** erzeugst du den Link (der Bereich **Alerts** verlinkt dorthin über **Zu den Overlays**)
     2. **Browser-Source eingerichtet?** — Der Link muss als Browser-Quelle in deiner Streaming-Software eingetragen sein
     3. **Quelle sichtbar?** — Ist die Browser-Quelle in der aktiven Szene sichtbar?
-    4. **Alert-Typ aktiv?** — Im Bereich **Alerts** der Twitch- bzw. YouTube-Sektion muss der Typ eingeschaltet sein
+    4. **Alert-Typ eingeschaltet und gespeichert?** — Neu eingerichtete Alerts starten ausgeschaltet. Schalte im Bereich **Alerts** der Twitch- bzw. YouTube-Sektion jeden Typ ein, den du sehen willst, und klicke auf **Speichern**
     5. **Richtiger Link?** — Dort legst du je Typ fest, welcher Overlay-Link ihn zeigt
     6. **"Herunterfahren wenn nicht sichtbar"** — Ist diese Option der Browser-Quelle aktiv, muss die Quelle sichtbar bleiben
 
-    **Quick-Test:** Klicke im Bereich **Alerts** beim jeweiligen Typ auf **Test** — der Alert sollte in der Browser-Source erscheinen.
+    **Quick-Test:** Klicke im Bereich **Alerts** beim jeweiligen Typ auf **Test** — der Alert sollte in der Browser-Source erscheinen. Ist der Typ ausgeschaltet, sendet Botly nichts und zeigt stattdessen den Hinweis "Dieser Alert ist ausgeschaltet. Schalte ihn ein und speichere, um ihn zu testen."
+
+    !!! info "Bestehende Overlays"
+        Hattest du schon vor dieser Änderung einen Overlay-Link, bleiben deine Alerts so eingestellt wie bisher.
 
 ## YouTube API Quota aufgebraucht
 
