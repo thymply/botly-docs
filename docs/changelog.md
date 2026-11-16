@@ -2,7 +2,7 @@
 
 Änderungen an Botly, chronologisch (neueste zuerst).
 
-## 14.11.2026
+## 16.11.2026
 
 - Alerts: Neu eingerichtete Alert-Typen starten ausgeschaltet — du schaltest im Bereich **Alerts** (Twitch bzw. YouTube) nur die Typen ein, die du im Stream sehen willst, und speicherst. Hattest du schon einen Overlay-Link, bleiben deine Alerts so eingestellt wie bisher.
 - Der Bereich **Alerts** zeigt jetzt einen Hinweis mit Link zu **Tools** → **Overlays**, wo du den Overlay-Link für OBS erstellst und kopierst.
