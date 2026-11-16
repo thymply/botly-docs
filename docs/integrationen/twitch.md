@@ -13,17 +13,36 @@ Botly verbindet sich über **OAuth 2.0** mit Twitch. Bei der Autorisierung wirst
 
 ## Scopes (Berechtigungen)
 
+Diese Berechtigungen fragt Botly ab, wenn du deinen Twitch-Kanal oder ein Bot-Konto verbindest:
+
 | Scope | Wofür |
 |-------|-------|
 | `chat:read` | Chat-Nachrichten lesen |
 | `chat:edit` | Chat-Nachrichten senden |
-| `channel:read:subscriptions` | Abo-Events empfangen |
-| `bits:read` | Bits-Events empfangen |
-| `channel:manage:broadcast` | Titel & Kategorie ändern |
-| `clips:edit` | Clips erstellen |
-| `moderation:read` | Moderations-Events |
+| `moderator:manage:banned_users` | Timeout und Ban |
 | `moderator:manage:chat_messages` | Nachrichten löschen |
-| `moderator:manage:banned_users` | Timeout/Ban |
+| `moderator:manage:chat_settings` | Chat-Einstellungen ändern |
+| `moderator:read:chatters` | Liste der Zuschauer im Chat lesen |
+| `moderator:read:followers` | Follows empfangen und Follow-Dauer lesen |
+| `channel:read:ads` | Werbepausen erkennen (Ankündigung im Chat) |
+| `channel:read:redemptions` | Kanalpunkte-Einlösungen empfangen |
+| `channel:manage:redemptions` | Kanalpunkte-Belohnungen anlegen, ändern und löschen |
+| `channel:read:subscriptions` | Abos, Resubs und Gifted Subs empfangen |
+| `bits:read` | Bits empfangen |
+| `channel:read:hype_train` | Hype Trains empfangen |
+| `channel:read:goals` | Kanal-Ziele empfangen |
+| `channel:read:polls` | Umfragen empfangen |
+| `channel:read:predictions` | Vorhersagen empfangen |
+| `channel:read:charity` | Spendenaktionen empfangen |
+| `moderator:read:shoutouts` | Shoutouts empfangen |
+| `channel:manage:vips` | VIP vergeben und entziehen |
+| `moderator:manage:shield_mode` | Shield Mode |
+| `clips:edit` | Clips erstellen ([Auto-Clip](../dashboard/twitch/auto-clip.md)), nur beim Twitch-Kanal, nicht beim Bot-Konto |
+
+Beim Login mit Twitch fragt Botly nur die Berechtigungen für die Anmeldung ab (`user:read:email`, `chat:read`, `chat:edit`, `channel:read:redemptions`, `channel:manage:redemptions`). Die übrigen kommen erst, wenn du deinen Twitch-Kanal verbindest.
+
+!!! tip "Neue Berechtigung"
+    Kommt eine Berechtigung neu hinzu, gilt sie erst, wenn du deinen Twitch-Kanal neu verbindest. Fehlt `clips:edit` und ist Auto-Clip eingeschaltet, zeigt dir Botly im Dashboard den Hinweis **Neu verbinden**.
 
 ## EventSub
 
