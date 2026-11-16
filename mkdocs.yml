@@ -53,6 +53,7 @@ nav:
       - Regulars: dashboard/twitch/regulars.md
       - AutoMod: dashboard/twitch/automod.md
       - Werbung: dashboard/twitch/werbung.md
+      - Kanalpunkte: dashboard/twitch/kanalpunkte.md
       - Auto-Clip: dashboard/twitch/auto-clip.md
       - Clips Dashboard: dashboard/twitch/clips-dashboard.md
       - Editoren: dashboard/twitch/editoren.md

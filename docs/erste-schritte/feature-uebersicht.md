@@ -46,6 +46,7 @@ Diese Features richtest du einmal ein; sie gelten für die Plattformen in der Sp
 |---|---|---|---|
 | Countdowns | <span class="j-yes">✓</span>(3) | <span class="j-yes">✓</span>(∞) | <span class="j-yes">✓</span>(∞) |
 | Eigenes Bot-Konto / myBotly | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
+| [Kanalpunkte](../dashboard/twitch/kanalpunkte.md) (Belohnungen, Alert und Chat-Antwort je Belohnung) | <span class="j-no">✗</span> | <span class="j-yes">✓</span> | <span class="j-yes">✓</span> |
 | Auto-Clip | <span class="j-no">✗</span> | <span class="j-no">✗</span> | <span class="j-yes">✓</span> |
 | Clips Dashboard | <span class="j-no">✗</span> | <span class="j-no">✗</span> | <span class="j-yes">✓</span> |
 

@@ -25,6 +25,7 @@ Editoren können:
 - Counter und Timer verwalten
 - AutoMod-Einstellungen ändern
 - Giveaways starten und beenden
+- Kanalpunkte-Belohnungen verwalten (Recht **Kanalpunkte**, siehe [Kanalpunkte](kanalpunkte.md))
 
 Editoren können **nicht**:
 
