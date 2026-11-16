@@ -42,7 +42,7 @@ Diese Berechtigungen fragt Botly ab, wenn du deinen Twitch-Kanal oder ein Bot-Ko
 Beim Login mit Twitch fragt Botly nur die Berechtigungen für die Anmeldung ab (`user:read:email`, `chat:read`, `chat:edit`, `channel:read:redemptions`, `channel:manage:redemptions`). Die übrigen kommen erst, wenn du deinen Twitch-Kanal verbindest.
 
 !!! tip "Neue Berechtigung"
-    Kommt eine Berechtigung neu hinzu, gilt sie erst, wenn du deinen Twitch-Kanal neu verbindest. Fehlt `clips:edit` und ist Auto-Clip eingeschaltet, zeigt dir Botly im Dashboard den Hinweis **Neu verbinden**.
+    Kommt eine Berechtigung neu hinzu, gilt sie erst, wenn du deinen Twitch-Kanal neu verbindest. Fehlt `clips:edit` und ist Auto-Clip eingeschaltet, zeigt dir Botly im Bereich Auto-Clip den Hinweis **Neu verbinden**.
 
 ## EventSub
 

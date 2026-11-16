@@ -2,6 +2,16 @@
 
 Änderungen an Botly, chronologisch (neueste zuerst).
 
+## 17.11.2026
+
+- Neuer Bereich **Kanalpunkte** unter Twitch (ab Pro): Belohnungen anlegen, bearbeiten und löschen, je Belohnung Overlay-Alert an oder aus, eigener Alert-Text und optionale Chat-Antwort.
+- Overlay-Alerts (Follow, Sub, Raid, Cheer, Kanalpunkte) gibt es jetzt für alle Kanäle mit Pro oder Premium und verbundenem Twitch-Kanal.
+- **Auto-Clip** erstellt wieder Clips. Dafür braucht Botly die Twitch-Berechtigung `clips:edit`: Fehlt sie, zeigt dir der Bereich Auto-Clip den Hinweis **Neu verbinden**, sobald du einen Trigger einschaltest.
+- **Chat-Log**: Zeiten erscheinen in deiner Zeitzone und Sprache; **Heute** beginnt um Mitternacht bei dir.
+- **← Zurück** auf Seiten wie Clips, Profil oder Abo führt zurück an die Stelle im Dashboard, von der du gekommen bist.
+- Verlässt du eine Seite mit ungespeicherten Änderungen, fragt Botly selbst nach (Speichern, Verwerfen, Abbrechen) statt der Warnung des Browsers.
+- Fehler und Warnungen im Bereich **Commands** bleiben sichtbar im Bereich stehen, statt als kurze Meldung zu verschwinden.
+
 ## 16.11.2026
 
 - Alerts: Neu eingerichtete Alert-Typen starten ausgeschaltet — du schaltest im Bereich **Alerts** (Twitch bzw. YouTube) nur die Typen ein, die du im Stream sehen willst, und speicherst. Hattest du schon einen Overlay-Link, bleiben deine Alerts so eingestellt wie bisher.

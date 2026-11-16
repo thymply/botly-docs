@@ -11,7 +11,7 @@ Auto-Clip erstellt automatisch einen Twitch-Clip, wenn in deinem Stream etwas Be
     Auto-Clip ist im **Premium**-Plan verfügbar.
 
 !!! warning "Twitch-Kanal einmal neu verbinden"
-    Für Clips braucht Botly die Twitch-Berechtigung `clips:edit`. Fehlt sie deinem Twitch-Kanal noch, zeigt dir Botly im Dashboard den Hinweis **Neu verbinden**, sobald ein Auto-Clip-Trigger eingeschaltet ist. Verbinde den Kanal dann einmal neu.
+    Für Clips braucht Botly die Twitch-Berechtigung `clips:edit`. Fehlt sie deinem Twitch-Kanal noch, zeigt dir Botly oben im Bereich Auto-Clip den Hinweis **Neu verbinden**, sobald du einen Auto-Clip-Trigger einschaltest. Verbinde den Kanal dann einmal neu. Verwaltest du den Kanal als Editor, siehst du nur den Hinweis; neu verbinden kann nur der Kanalinhaber.
 
 ## Einrichtung
 
