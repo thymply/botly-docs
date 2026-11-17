@@ -81,6 +81,47 @@ Klicke beim gewünschten Typ auf **Test** — der Alert erscheint in deiner Brow
 !!! info "Test bei ausgeschaltetem Typ"
     Ist der Typ ausgeschaltet, sendet Botly keinen Test und zeigt den Hinweis "Dieser Alert ist ausgeschaltet. Schalte ihn ein und speichere, um ihn zu testen." Der Test richtet sich nach den gespeicherten Einstellungen — schalte den Typ also ein und klicke zuerst auf **Speichern**.
 
+## Alerts gestalten (Alert-Editor)
+
+!!! info "Premium"
+    Der Alert-Editor ist im **Premium**-Plan enthalten. In Pro öffnet der Knopf **Gestalten** den Hinweis zum Upgrade.
+
+Klicke in der Zeile eines Alert-Typs auf **Gestalten**. Im Dialog stellst du für diesen Typ ein:
+
+| Bereich | Einstellung |
+|---------|-------------|
+| **Text** | **Titel-Vorlage** (bis 80 Zeichen) und **Text-Vorlage** (bis 200 Zeichen). Leer lassen = Standardtext des Alerts |
+| **Aussehen** | **Schrift**, **Position** (neun Stellen, z. B. „Oben Mitte“ oder „Unten rechts“), **Textfarbe**, **Akzentfarbe**, **Hintergrundfarbe** und **Deckkraft des Hintergrunds** |
+| **Bild** | Eigenes Bild hochladen (PNG, JPEG, GIF oder WebP, höchstens 5 MB und 4096 × 4096 Pixel), Schalter **Bild anzeigen** |
+| **Ton** | **Standard-Ton**, **Kein Ton** oder **Eigener Ton** (MP3, OGG oder WAV, höchstens 2 MB), dazu die **Lautstärke** |
+
+Klicke danach auf **Speichern**. Mit **Test-Alert senden** prüfst du den gespeicherten Stand in OBS. **Zurücksetzen** stellt den Standard-Look wieder her und löscht das hochgeladene Bild und den Ton dieses Typs.
+
+### Variablen
+
+In den Vorlagen setzt Botly echte Werte ein, z. B. den Namen der Person, die gefolgt ist. Ein Klick auf eine Variable im Dialog fügt sie an der Cursorposition ein.
+
+| Typ | Variablen |
+|-----|-----------|
+| Neuer Follower | `{user}` |
+| Neues Abo | `{user}`, `{months}`, `{tier}` |
+| Sub-Geschenk | `{user}`, `{amount}`, `{tier}` |
+| Cheer | `{user}`, `{amount}`, `{message}` |
+| Raid | `{user}`, `{viewers}` |
+| Kanalpunkte | `{user}`, `{reward}`, `{cost}`, `{input}` |
+| Superchat | `{user}`, `{amount}`, `{currency}`, `{message}` |
+| Super-Sticker | `{user}`, `{amount}`, `{currency}` |
+| Neues Mitglied | `{user}`, `{months}` |
+
+Beispiel: `{user} hat {amount} Bits gecheert!`
+
+!!! note "Ton in der Live-Vorschau"
+    In der **Live-Vorschau** im Dashboard spielt ein Ton erst nach einem Klick in die Vorschau (Regel des Browsers). Prüfe den Ton mit **Test-Alert senden** in deiner OBS-Browserquelle.
+
+### Nach einem Wechsel aus Premium
+
+Wechselst du von Premium auf Pro oder Free, zeigen deine Alerts wieder den Standard-Look. Deine Gestaltung bleibt gespeichert und gilt wieder, sobald du erneut Premium hast. Deine hochgeladenen Dateien siehst du unter **Alerts** in der Karte **Hochgeladene Dateien** und kannst sie dort löschen.
+
 ## Wechsel auf Free
 
 Fällt dein Abo auf den Free-Plan zurück, widerruft Botly deine Overlay-Links. Nach einem erneuten Upgrade erstellst du unter **Tools** → **Overlays** einen neuen Link und trägst ihn in OBS ein.
