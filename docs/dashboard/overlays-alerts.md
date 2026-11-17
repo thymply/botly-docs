@@ -76,7 +76,7 @@ Dein ältester Link ist der **Standard-Link** und zeigt alle eingeschalteten Typ
 
 ## Testen
 
-Klicke beim gewünschten Typ auf **Test** — der Alert erscheint in deiner Browserquelle. Unter **Live-Vorschau** siehst du den Standard-Link direkt im Dashboard, auch ohne OBS (sobald du einen Link erstellt hast).
+Klicke beim gewünschten Typ auf **Test** — der Alert erscheint in deiner Browserquelle. Unter **Live-Vorschau** siehst du den Standard-Link direkt im Dashboard, auch ohne OBS (sobald du einen Link erstellt hast). Die Vorschau passt ihre Höhe an den Alert an, auch mit großem Bild.
 
 !!! info "Test bei ausgeschaltetem Typ"
     Ist der Typ ausgeschaltet, sendet Botly keinen Test und zeigt den Hinweis "Dieser Alert ist ausgeschaltet. Schalte ihn ein und speichere, um ihn zu testen." Der Test richtet sich nach den gespeicherten Einstellungen — schalte den Typ also ein und klicke zuerst auf **Speichern**.
@@ -94,6 +94,8 @@ Klicke in der Zeile eines Alert-Typs auf **Gestalten**. Im Dialog stellst du fü
 | **Aussehen** | **Schrift**, **Position** (neun Stellen, z. B. „Oben Mitte“ oder „Unten rechts“), **Textfarbe**, **Akzentfarbe**, **Hintergrundfarbe** und **Deckkraft des Hintergrunds** |
 | **Bild** | Eigenes Bild hochladen (PNG, JPEG, GIF oder WebP, höchstens 5 MB und 4096 × 4096 Pixel), Schalter **Bild anzeigen** |
 | **Ton** | **Standard-Ton**, **Kein Ton** oder **Eigener Ton** (MP3, OGG oder WAV, höchstens 2 MB), dazu die **Lautstärke** |
+
+**Schriften:** Systemschrift, DM Sans, Sora, Serifenschrift, Festbreitenschrift, Montserrat, Poppins, Bebas Neue, Bangers, Press Start 2P, Orbitron und Permanent Marker. Jede Schrift erscheint in der Auswahl in ihrem eigenen Aussehen, die Zeile darunter zeigt Deinen Titel als Vorschau. Bebas Neue und Bangers schreiben nur Großbuchstaben. Alle Schriften liegen auf dem Botly-Server, das Overlay lädt nichts von Dritten nach.
 
 Klicke danach auf **Speichern**. Mit **Test-Alert senden** prüfst du den gespeicherten Stand in OBS. **Zurücksetzen** stellt den Standard-Look wieder her und löscht das hochgeladene Bild und den Ton dieses Typs.
 
