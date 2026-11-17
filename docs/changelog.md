@@ -11,6 +11,11 @@
 - **← Zurück** auf Seiten wie Clips, Profil oder Abo führt zurück an die Stelle im Dashboard, von der du gekommen bist.
 - Verlässt du eine Seite mit ungespeicherten Änderungen, fragt Botly selbst nach (Speichern, Verwerfen, Abbrechen) statt der Warnung des Browsers.
 - Fehler und Warnungen im Bereich **Commands** bleiben sichtbar im Bereich stehen, statt als kurze Meldung zu verschwinden.
+- Neu im Premium-Plan: der [Alert-Editor](dashboard/overlays-alerts.md#alerts-gestalten-alert-editor). Über **Gestalten** stellst du je Alert-Typ Texte mit Variablen, Schrift, Position und Farben ein, lädst ein eigenes Bild und einen eigenen Ton hoch und siehst alles in der Live-Vorschau.
+- Zwölf Schriften stehen zur Wahl, darunter Montserrat, Bebas Neue, Press Start 2P und Permanent Marker. Alle liegen auf dem Botly-Server.
+- Fehler und Warnungen bleiben jetzt auch in weiteren Bereichen sichtbar stehen, z. B. Giveaway, Counter, Regulars, Mitspieler, Kanalpunkte, Editoren, Overlays, Alerts, Abo und Discord.
+- Der Dialog für Editoren öffnet sich unter YouTube und Discord wieder richtig.
+- Die [Datenschutzerklärung](https://botly.thymply.de/datenschutz) und die [Nutzungsbedingungen](https://botly.thymply.de/nutzungsbedingungen) beschreiben jetzt, wie Botly hochgeladene Bilder und Töne speichert.
 
 ## 16.11.2026
 
