@@ -31,7 +31,7 @@ Botly bietet flexible Pläne für jeden Streamer — vom Hobbystreamer bis zum V
 
 | Plan | Preis | Beschreibung |
 |---|---|---|
-| KI Add-on | 4,99€/Monat (oder 49,90€/Jahr) | Eigener OpenAI/Anthropic-Key, buchbar zu Pro oder Premium |
+| KI Add-on | 4,99€/Monat (oder 49,90€/Jahr) | Eigener OpenAI/Anthropic-Key, buchbar allein oder zu Pro/Premium |
 
 ## Häufige Fragen zu Plänen
 
@@ -43,4 +43,4 @@ Dein Account bleibt bestehen und wechselt zum Free-Plan. Deine Commands, Counter
 
 ## Zahlungsmethoden
 
-Kreditkarte, Debitkarte, SEPA-Lastschrift, Google Pay, Apple Pay (via Stripe).
+Kredit- und Debitkarte (über Stripe).

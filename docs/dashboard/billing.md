@@ -42,7 +42,7 @@ Unter **Allgemein** → **Abonnement** siehst du deinen aktuellen Plan, die Feat
 
 ## Zahlungsmethoden
 
-Botly nutzt Stripe. Unterstützt: Kreditkarte, Debitkarte, SEPA-Lastschrift, Google Pay, Apple Pay.
+Botly nutzt Stripe. Unterstützt: Kredit- und Debitkarte.
 
 ## Rabattcode
 
